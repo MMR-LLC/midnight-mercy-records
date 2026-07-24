@@ -1,30 +1,47 @@
-const header = document.getElementById("siteHeader");
-const menuToggle = document.getElementById("menuToggle");
-const mainNav = document.getElementById("mainNav");
-const year = document.getElementById("year");
+const header = document.querySelector("[data-header]");
+const menuButton = document.querySelector("[data-menu-button]");
+const navigation = document.querySelector("[data-navigation]");
+const form = document.querySelector("[data-newsletter-form]");
+const success = document.querySelector("[data-success]");
 
-window.addEventListener("scroll", () => {
+const updateHeader = () => {
   header.classList.toggle("scrolled", window.scrollY > 24);
+};
+updateHeader();
+window.addEventListener("scroll", updateHeader, { passive: true });
+
+menuButton.addEventListener("click", () => {
+  const open = menuButton.getAttribute("aria-expanded") === "true";
+  menuButton.setAttribute("aria-expanded", String(!open));
+  menuButton.classList.toggle("open", !open);
+  navigation.classList.toggle("open", !open);
+  document.body.style.overflow = open ? "" : "hidden";
 });
 
-menuToggle.addEventListener("click", () => {
-  const isOpen = mainNav.classList.toggle("open");
-  menuToggle.setAttribute("aria-expanded", String(isOpen));
-});
-
-mainNav.querySelectorAll("a").forEach((link) => {
+navigation.querySelectorAll("a").forEach(link => {
   link.addEventListener("click", () => {
-    mainNav.classList.remove("open");
-    menuToggle.setAttribute("aria-expanded", "false");
+    menuButton.setAttribute("aria-expanded", "false");
+    menuButton.classList.remove("open");
+    navigation.classList.remove("open");
+    document.body.style.overflow = "";
   });
 });
 
-year.textContent = new Date().getFullYear();
-
-
-const revealTargets = document.querySelectorAll('.section-heading, .artist-grid, .music-card, .latest-release, .visual-story-copy, .visual-story-image, .merch-card, .about-panel, .newsletter-section');
-revealTargets.forEach(el => el.classList.add('reveal'));
-const revealObserver = new IntersectionObserver(entries => {
-  entries.forEach(entry => { if (entry.isIntersecting) { entry.target.classList.add('is-visible'); revealObserver.unobserve(entry.target); } });
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("is-visible");
+      observer.unobserve(entry.target);
+    }
+  });
 }, { threshold: 0.12 });
-revealTargets.forEach(el => revealObserver.observe(el));
+
+document.querySelectorAll(".reveal").forEach(element => observer.observe(element));
+
+form.addEventListener("submit", event => {
+  event.preventDefault();
+  form.hidden = true;
+  success.hidden = false;
+});
+
+document.querySelector("[data-year]").textContent = new Date().getFullYear();
