@@ -633,3 +633,233 @@ h3 { margin: 0; font-size: 1.55rem; }
   .values-grid { grid-template-columns: 1fr; }
   .catalog-thumbs { grid-template-columns: repeat(4, 1fr); }
 }
+
+
+/* ================================================================
+   Phase 2.1 — Global header, logo, navigation and design polish
+   ================================================================ */
+
+:root {
+  --header-height: 92px;
+  --header-height-compact: 76px;
+  --focus-ring: 0 0 0 3px rgba(201, 164, 106, .22);
+}
+
+/* Prevent the brand artwork from ever being clipped or distorted. */
+.brand {
+  min-width: 0;
+  gap: 15px;
+  text-decoration: none;
+}
+
+.brand-mark {
+  width: 58px;
+  height: 58px;
+  flex: 0 0 58px;
+  display: grid;
+  place-items: center;
+  overflow: visible;
+}
+
+.brand-mark img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 2px;
+  object-fit: contain;
+  object-position: center;
+}
+
+.brand-copy {
+  min-width: 0;
+  display: grid;
+  gap: 4px;
+  line-height: 1;
+}
+
+.brand-copy strong {
+  color: var(--text);
+  font-size: .75rem;
+  font-weight: 600;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.brand-copy small {
+  color: rgba(201, 164, 106, .8);
+  font-size: .49rem;
+  font-weight: 600;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.site-header {
+  min-height: var(--header-height);
+  height: var(--header-height);
+  padding-inline: clamp(22px, 4vw, 68px);
+}
+
+.site-header.scrolled,
+.inner-header {
+  min-height: var(--header-height-compact);
+  height: var(--header-height-compact);
+  background: rgba(7, 9, 12, .9);
+  border-color: var(--line);
+  backdrop-filter: blur(18px);
+}
+
+.site-header.scrolled .brand-mark,
+.inner-header .brand-mark {
+  width: 52px;
+  height: 52px;
+  flex-basis: 52px;
+}
+
+.site-nav {
+  gap: clamp(18px, 2.2vw, 34px);
+}
+
+.site-nav a {
+  position: relative;
+  padding-block: 10px;
+}
+
+.site-nav a:not(.nav-cta)::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 100%;
+  bottom: 2px;
+  height: 1px;
+  background: var(--gold);
+  transition: right .22s ease;
+}
+
+.site-nav a:not(.nav-cta):hover::after,
+.site-nav a.active:not(.nav-cta)::after {
+  right: 0;
+}
+
+.site-nav a.active {
+  color: var(--gold-light);
+}
+
+.site-nav .nav-cta {
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 18px;
+  transition: color .2s, background .2s, border-color .2s, transform .2s;
+}
+
+.site-nav .nav-cta:hover {
+  color: #080a0d;
+  background: var(--gold-light);
+  border-color: var(--gold-light);
+  transform: translateY(-1px);
+}
+
+.button,
+.site-nav .nav-cta,
+input,
+select,
+button {
+  border-radius: 0;
+}
+
+.button:focus-visible,
+.site-nav a:focus-visible,
+.brand:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+a:focus-visible {
+  outline: 1px solid var(--gold-light);
+  outline-offset: 4px;
+  box-shadow: var(--focus-ring);
+}
+
+/* Keep inner-page content clear of the sticky header. */
+.inner-page main {
+  padding-top: var(--header-height-compact);
+}
+
+.inner-page .page-hero,
+.inner-page .album-hero {
+  min-height: calc(88vh - var(--header-height-compact));
+}
+
+/* Slightly more consistent premium button behavior. */
+.button {
+  position: relative;
+  overflow: hidden;
+  box-shadow: none;
+}
+
+.button-primary:hover {
+  box-shadow: 0 14px 36px rgba(201, 164, 106, .16);
+}
+
+.button-ghost {
+  backdrop-filter: blur(8px);
+}
+
+/* Mobile header */
+@media (max-width: 900px) {
+  .site-header,
+  .site-header.scrolled,
+  .inner-header {
+    min-height: 72px;
+    height: 72px;
+    padding-inline: 18px;
+  }
+
+  .brand-mark,
+  .site-header.scrolled .brand-mark,
+  .inner-header .brand-mark {
+    width: 48px;
+    height: 48px;
+    flex-basis: 48px;
+  }
+
+  .brand-copy strong {
+    font-size: .66rem;
+    letter-spacing: .13em;
+  }
+
+  .brand-copy small {
+    font-size: .43rem;
+    letter-spacing: .16em;
+  }
+
+  .inner-page main {
+    padding-top: 72px;
+  }
+}
+
+@media (max-width: 520px) {
+  .brand {
+    gap: 10px;
+  }
+
+  .brand-mark,
+  .site-header.scrolled .brand-mark,
+  .inner-header .brand-mark {
+    width: 44px;
+    height: 44px;
+    flex-basis: 44px;
+  }
+
+  .brand-copy small {
+    display: none;
+  }
+
+  .brand-copy strong {
+    max-width: 190px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: .61rem;
+  }
+}
