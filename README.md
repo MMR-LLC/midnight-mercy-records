@@ -1,32 +1,24 @@
-# Midnight Mercy Records Homepage
+# Midnight Mercy Records Homepage V2
 
-A rebuilt, mobile-first homepage for Midnight Mercy Records and Ashan Levi.
+This update adds:
 
-## Preview locally
+- Interactive “What are you carrying today?” song recommendations for eight struggles.
+- Merchandise galleries with image thumbnails and click-to-enlarge previews.
+- Color and size controls.
+- “Notify me” interest buttons ready to connect to an email platform.
+- Expanded footer with streaming links, mission statement, Scripture of the week, social links, and copyright.
+- Hero album strip: “Dust To Grace · 13 songs · Available now.”
 
-Open `index.html` in your browser.
+## Publish
 
-## Publish with GitHub Desktop
+Copy the contents of this folder into the cloned `midnight-mercy-records` repository, replacing matching files.
 
-1. Open the cloned `midnight-mercy-records` repository in File Explorer.
-2. Copy everything inside this project folder into the cloned repository, replacing matching files.
-3. Return to GitHub Desktop.
-4. Use the commit message: `Rebuild responsive homepage`.
-5. Click **Commit to main**.
-6. Click **Push origin**.
-7. Wait about one minute and refresh the GitHub Pages website.
+Commit message:
 
-## Included
+`Add interactive discovery merch and footer`
 
-- Responsive cinematic hero
-- Mobile navigation
-- Ashan Levi featured-artist section
-- Dust To Grace release section
-- Behind-the-music section
-- “What are you carrying?” discovery cards
-- Correctly contained mobile merchandise cards
-- About the label
-- Newsletter confirmation message
-- Real streaming and social links
+Then click **Push origin**.
 
-The newsletter is currently a visual demo. A mailing provider must be connected before it can save subscribers.
+## Important before launch
+
+The merchandise “Notify me” controls currently demonstrate the user experience but do not submit email addresses to a mailing platform yet. The contact link currently points to the newsletter section because a public contact email address was not included in the supplied files.
