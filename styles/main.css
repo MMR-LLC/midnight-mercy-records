@@ -564,3 +564,65 @@ button, input { font: inherit; }
 .reveal.is-visible { opacity:1; transform:none; }
 @media (max-width:900px){.visual-story{grid-template-columns:1fr}.merch-grid{grid-template-columns:1fr 1fr}.artist-image>img{min-height:520px}}
 @media (max-width:620px){.merch-grid{grid-template-columns:1fr}.visual-story-image{min-height:440px}}
+
+
+/* Mobile layout correction — merch images and text */
+.merch-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.merch-card > img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: center;
+  flex: none;
+}
+
+.merch-card h3,
+.merch-card p {
+  position: relative;
+  z-index: 1;
+  background: var(--background, #0b0b0d);
+}
+
+@media (max-width: 620px) {
+  .merch-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 48px;
+  }
+
+  .merch-card {
+    overflow: visible;
+  }
+
+  .merch-card > img {
+    height: auto !important;
+    max-height: none;
+  }
+
+  .merch-card h3 {
+    margin-top: 16px;
+    line-height: 1.15;
+  }
+
+  .merch-card p {
+    margin-top: 5px;
+  }
+
+  .site-header {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+
+  .brand-logo {
+    width: 38px;
+    height: 38px;
+    object-fit: contain;
+  }
+}
