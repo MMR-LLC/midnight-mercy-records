@@ -1,24 +1,31 @@
-# Midnight Mercy Records Homepage V2
+# Midnight Mercy Records — Phase 2
 
-This update adds:
+This build converts the website from a single long page into a true multi-page website.
 
-- Interactive “What are you carrying today?” song recommendations for eight struggles.
-- Merchandise galleries with image thumbnails and click-to-enlarge previews.
-- Color and size controls.
-- “Notify me” interest buttons ready to connect to an email platform.
-- Expanded footer with streaming links, mission statement, Scripture of the week, social links, and copyright.
-- Hero album strip: “Dust To Grace · 13 songs · Available now.”
+## New pages
+
+- `artist.html` — Ashan Levi artist page
+- `music.html` — Music library
+- `dust-to-grace.html` — Dedicated 13-song album page
+- `story.html` — Full project story
+- `merch.html` — Merchandise catalog
+- `about.html` — Midnight Mercy Records mission and values
+
+The homepage now acts as a preview and discovery page. Its top navigation opens the new pages instead of only scrolling to sections.
 
 ## Publish
 
-Copy the contents of this folder into the cloned `midnight-mercy-records` repository, replacing matching files.
+1. Extract this ZIP.
+2. Copy all contents into your cloned `midnight-mercy-records` folder.
+3. Replace matching files.
+4. Open GitHub Desktop.
+5. Commit with:
 
-Commit message:
+`Build Phase 2 multi-page website`
 
-`Add interactive discovery merch and footer`
+6. Click **Push origin**.
+7. Wait for GitHub Pages to deploy.
 
-Then click **Push origin**.
+## Next build
 
-## Important before launch
-
-The merchandise “Notify me” controls currently demonstrate the user experience but do not submit email addresses to a mailing platform yet. The contact link currently points to the newsletter section because a public contact email address was not included in the supplied files.
+The next logical step is individual song pages with lyrics, Scripture references, song stories, and streaming links.

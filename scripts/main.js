@@ -188,3 +188,14 @@ document.querySelectorAll("[data-notify]").forEach(button => {
     button.disabled = true;
   });
 });
+
+
+document.querySelectorAll("[data-catalog-image]").forEach(button => {
+  button.addEventListener("click", () => {
+    const gallery = button.closest(".catalog-gallery");
+    const main = gallery.querySelector("[data-catalog-main]");
+    gallery.querySelectorAll("[data-catalog-image]").forEach(item => item.classList.remove("is-active"));
+    button.classList.add("is-active");
+    main.src = button.dataset.catalogImage;
+  });
+});
