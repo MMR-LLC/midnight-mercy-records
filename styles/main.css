@@ -580,7 +580,36 @@ h3 { margin: 0; font-size: 1.55rem; }
 .full-track > span { color: var(--gold); font-size: .72rem; }
 .full-track h3 { margin: 0; font-size: 1.8rem; }
 .full-track p { margin: 6px 0 0; color: var(--muted); }
-.full-track button { border: 1px solid var(--line); background: transparent; color: var(--muted); padding: 10px 14px; }
+.spotify-track-link {
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 11px 16px;
+  border: 1px solid rgba(255,255,255,.18);
+  background: rgba(255,255,255,.025);
+  color: var(--text);
+  font-size: .72rem;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  transition: transform .25s ease, border-color .25s ease, background .25s ease, box-shadow .25s ease, color .25s ease;
+}
+.spotify-track-link span { transition: transform .25s ease; }
+.spotify-track-link:hover {
+  transform: translateY(-2px);
+  border-color: #1ed760;
+  background: rgba(30,215,96,.08);
+  color: #f7fff9;
+  box-shadow: 0 12px 28px rgba(30,215,96,.12);
+}
+.spotify-track-link:hover span { transform: translateX(3px); }
+.spotify-track-link:focus-visible {
+  outline: 1px solid #1ed760;
+  outline-offset: 4px;
+}
 .streaming-button-grid { display: flex; flex-wrap: wrap; gap: 10px; }
 .streaming-button-grid a { padding: 14px 18px; border: 1px solid var(--line); color: var(--text); }
 .streaming-button-grid a:hover { border-color: var(--gold); color: var(--gold-light); }
@@ -629,7 +658,7 @@ h3 { margin: 0; font-size: 1.55rem; }
   .page-hero-image { min-height: 46vh; }
   .story-chapter { grid-template-columns: 1fr; gap: 10px; }
   .full-track { grid-template-columns: 42px 1fr; }
-  .full-track button { grid-column: 2; justify-self: start; }
+  .spotify-track-link { grid-column: 2; justify-self: start; }
   .values-grid { grid-template-columns: 1fr; }
   .catalog-thumbs { grid-template-columns: repeat(4, 1fr); }
 }
@@ -861,5 +890,15 @@ a:focus-visible {
     overflow: hidden;
     text-overflow: ellipsis;
     font-size: .61rem;
+  }
+}
+
+
+/* Dust To Grace v1.0 Spotify track buttons */
+@media (max-width: 520px) {
+  .spotify-track-link {
+    width: 100%;
+    min-height: 48px;
+    padding-inline: 14px;
   }
 }
