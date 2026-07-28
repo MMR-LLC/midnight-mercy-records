@@ -1041,3 +1041,9 @@ a:focus-visible {
   .music-featured-copy h2 { font-size: clamp(3rem, 17vw, 4.4rem); }
   .music-community-banner .button { width: 100%; }
 }
+
+/* v1.0.4: Only currently public albums appear on the Music page. */
+.music-page .release-grid.single-live-release {
+  grid-template-columns: minmax(0, 1fr);
+  max-width: 560px;
+}

@@ -1,4 +1,9 @@
 # Changelog
+## v1.0.4 — 2026-07-28
+- Removed Redemption from the public Music page until its release campaign is ready.
+- Preserved the Redemption artwork and draft album card in the project files.
+- Updated the live Albums section to focus on Dust To Grace.
+
 
 ## v1.0.3
 - Added the Your Light (Remix) Featured Release to the Music page
