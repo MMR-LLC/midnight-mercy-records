@@ -1,3 +1,12 @@
+# Changelog
+
+## v1.0.3
+- Added the Your Light (Remix) Featured Release to the Music page
+- Added the official Your Light (Remix) cover artwork and Spotify pre-save CTA
+- Replaced the Redemption placeholder with the current album artwork
+- Added a Singles & Collaborations section
+- Added a Midnight Mercy Community CTA to the Music page
+
 # Website v1.0.2
 
 - Added homepage Featured Release section for “Your Light (Remix)”
@@ -7,7 +16,6 @@
 - Updated homepage hero calls to action to prioritize pre-saves and owned email growth
 - Updated footer wording from Newsletter to Join the Community
 
-# Changelog
 
 ## Website v1.0.1 — Dust To Grace streaming update
 
