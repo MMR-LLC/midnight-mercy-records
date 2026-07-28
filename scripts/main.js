@@ -16,7 +16,7 @@ if (menuButton && navigation) {
     menuButton.setAttribute("aria-expanded", String(!open));
     menuButton.classList.toggle("open", !open);
     navigation.classList.toggle("open", !open);
-    document.body.style.overflow = open ? "" : "hidden";
+    document.body.classList.toggle("menu-open", !open);
   });
 
   navigation.querySelectorAll("a").forEach(link => {
@@ -24,7 +24,7 @@ if (menuButton && navigation) {
       menuButton.setAttribute("aria-expanded", "false");
       menuButton.classList.remove("open");
       navigation.classList.remove("open");
-      document.body.style.overflow = "";
+      document.body.classList.remove("menu-open");
     });
   });
 }
@@ -205,3 +205,51 @@ document.querySelectorAll("[data-catalog-image]").forEach(button => {
     main.src = button.dataset.catalogImage;
   });
 });
+
+
+// v1.0.5 — Mobile menu accessibility and Kit form branding.
+if (menuButton && navigation) {
+  document.addEventListener("keydown", event => {
+    if (event.key !== "Escape" || !navigation.classList.contains("open")) return;
+    menuButton.setAttribute("aria-expanded", "false");
+    menuButton.classList.remove("open");
+    navigation.classList.remove("open");
+    document.body.classList.remove("menu-open");
+    menuButton.focus();
+  });
+
+  window.addEventListener("resize", () => {
+    if (window.innerWidth > 980 && navigation.classList.contains("open")) {
+      menuButton.setAttribute("aria-expanded", "false");
+      menuButton.classList.remove("open");
+      navigation.classList.remove("open");
+      document.body.classList.remove("menu-open");
+    }
+  });
+}
+
+const brandKitForm = root => {
+  const scope = root && root.querySelectorAll ? root : document;
+  scope.querySelectorAll(".kit-form-wrap input[type='email']").forEach(input => {
+    input.placeholder = "Enter your email address";
+    input.setAttribute("aria-label", "Email address");
+  });
+
+  scope.querySelectorAll(".kit-form-wrap button[type='submit'], .kit-form-wrap .formkit-submit").forEach(button => {
+    const label = button.querySelector("span") || button;
+    if (label.textContent.trim() !== "❤️ Join the Community") {
+      label.textContent = "❤️ Join the Community";
+    }
+    button.setAttribute("aria-label", "Join the Midnight Mercy Community");
+  });
+};
+
+brandKitForm(document);
+const kitObserver = new MutationObserver(mutations => {
+  for (const mutation of mutations) {
+    for (const node of mutation.addedNodes) {
+      if (node.nodeType === Node.ELEMENT_NODE) brandKitForm(node);
+    }
+  }
+});
+kitObserver.observe(document.documentElement, { childList: true, subtree: true });

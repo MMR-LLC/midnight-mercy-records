@@ -28,3 +28,11 @@
 - Added the standardized label “🎧 Listen on Spotify →”.
 - Added branded hover, keyboard-focus, and mobile tap states.
 - Corrected the displayed title to “Hold Me Now” while preserving its supplied Spotify destination.
+
+## v1.0.5 — Mobile navigation and Community form polish
+- Rebuilt the mobile navigation as an opaque full-screen overlay so page content no longer overlaps the menu.
+- Added Escape-key closing, scroll locking, and resize cleanup for the mobile menu.
+- Restyled the embedded Kit form to match Midnight Mercy Records typography, gold accents, spacing, and mobile layout.
+- Changed the Kit email placeholder to “Enter your email address.”
+- Changed the signup button label to “❤️ Join the Community.”
+- Added a Kit Creator Network recommendations removal checklist for the account-level setting.
