@@ -1,4 +1,11 @@
 # Changelog
+
+## v1.0.6 — Premium Merch Watchlist
+- Replaced the placeholder “Interest saved” copy with a branded merch watchlist confirmation.
+- Added a short button loading state followed by “✓ You’re on the list.”
+- Added an animated confirmation card for early access, restock alerts, and limited drops.
+- Applied the experience consistently to both upcoming hoodie products.
+
 ## v1.0.4 — 2026-07-28
 - Removed Redemption from the public Music page until its release campaign is ready.
 - Preserved the Redemption artwork and draft album card in the project files.

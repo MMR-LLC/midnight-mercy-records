@@ -1248,3 +1248,125 @@ a:focus-visible {
     width: 100% !important;
   }
 }
+
+
+/* v1.0.6 — Premium merch watchlist confirmation. */
+[data-notify] {
+  position: relative;
+  overflow: hidden;
+}
+
+[data-notify].is-saving {
+  opacity: .78;
+  cursor: wait;
+}
+
+[data-notify].is-saved,
+[data-notify].is-saved:disabled {
+  border-color: var(--gold-light);
+  background: var(--gold-light);
+  color: #080a0d;
+  opacity: 1;
+  cursor: default;
+}
+
+.merch-watchlist-card {
+  margin-top: 14px;
+  padding: 22px 22px 20px;
+  border: 1px solid rgba(201,164,106,.44);
+  background: linear-gradient(145deg, rgba(201,164,106,.09), rgba(255,255,255,.018));
+  color: var(--ivory);
+  opacity: 0;
+  transform: translateY(14px);
+  transition: opacity .38s ease, transform .38s ease;
+}
+
+.merch-watchlist-card.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.watchlist-heading {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--sans);
+  font-size: .82rem;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.watchlist-check,
+.watchlist-confirmation-check {
+  color: var(--gold-light);
+  font-weight: 800;
+}
+
+.merch-watchlist-card > p {
+  margin: 12px 0 0;
+  color: var(--muted);
+  line-height: 1.65;
+}
+
+.merch-watchlist-card .watchlist-benefits {
+  color: var(--gold-light);
+  font-family: var(--sans);
+  font-size: .73rem;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.watchlist-benefits span {
+  margin: 0 5px;
+  color: rgba(201,164,106,.55);
+}
+
+.watchlist-confirmation {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 12px;
+  align-items: start;
+  margin-top: 20px;
+  padding-top: 18px;
+  border-top: 1px solid rgba(201,164,106,.24);
+  opacity: 0;
+  transform: translateY(8px);
+  animation: watchlist-confirmation-in .42s ease .45s forwards;
+}
+
+.watchlist-confirmation strong,
+.watchlist-confirmation span {
+  display: block;
+}
+
+.watchlist-confirmation strong {
+  font-family: var(--serif);
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: var(--ivory);
+}
+
+.watchlist-confirmation div > span {
+  margin-top: 5px;
+  color: var(--muted);
+}
+
+@keyframes watchlist-confirmation-in {
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .merch-watchlist-card,
+  .watchlist-confirmation {
+    transition: none;
+    animation: none;
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .merch-watchlist-card { padding: 18px; }
+  .merch-watchlist-card .watchlist-benefits { line-height: 1.8; }
+}

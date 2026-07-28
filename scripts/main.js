@@ -186,12 +186,21 @@ lightbox.addEventListener("click", event => {
 
 document.querySelectorAll("[data-notify]").forEach(button => {
   button.addEventListener("click", () => {
-    const product = button.closest("[data-product]");
-    const message = product.querySelector(".notify-message");
-    message.hidden = false;
-    message.textContent = `${button.dataset.notify} has been added to your interest list. Connect this button to your email platform before the store launches.`;
-    button.textContent = "Interest saved";
+    const product = button.closest("[data-product], .catalog-product");
+    const message = product?.querySelector(".notify-message");
+    if (!message) return;
+
+    button.classList.add("is-saving");
+    button.textContent = "Adding…";
     button.disabled = true;
+
+    window.setTimeout(() => {
+      button.classList.remove("is-saving");
+      button.classList.add("is-saved");
+      button.textContent = "✓ You’re on the list";
+      message.hidden = false;
+      requestAnimationFrame(() => message.classList.add("is-visible"));
+    }, 450);
   });
 });
 

@@ -45,7 +45,7 @@
 </section>
 
 <section class="section merch-catalog">
-  <article class="catalog-product">
+  <article class="catalog-product" data-product>
     <div class="catalog-gallery">
       <img class="catalog-main" src="assets/merch/still-standing-product.png" alt="Still Standing hoodie" data-catalog-main>
       <div class="catalog-thumbs">
@@ -63,11 +63,19 @@
       <label>Color<select><option>Black</option></select></label>
       <label>Size<select><option>Select size</option><option>S</option><option>M</option><option>L</option><option>XL</option><option>2XL</option><option>3XL</option></select></label>
       <button class="button button-primary" type="button" data-notify="Still Standing Hoodie">Notify me when available</button>
-      <p class="notify-message" hidden></p>
+      <div class="notify-message merch-watchlist-card" hidden aria-live="polite">
+        <div class="watchlist-heading"><span class="watchlist-check" aria-hidden="true">✓</span><strong>Added to your Merch Watchlist</strong></div>
+        <p>You’ll be among the first to know when this piece launches.</p>
+        <p class="watchlist-benefits">Early access <span aria-hidden="true">•</span> Restock alerts <span aria-hidden="true">•</span> Limited drops</p>
+        <div class="watchlist-confirmation">
+          <span class="watchlist-confirmation-check" aria-hidden="true">✓</span>
+          <div><strong>You’re on the list.</strong><span>We’ll email you before anyone else.</span></div>
+        </div>
+      </div>
     </div>
   </article>
 
-  <article class="catalog-product reverse">
+  <article class="catalog-product reverse" data-product>
     <div class="catalog-gallery">
       <img class="catalog-main" src="assets/merch/faith-over-fear-hoodie.png" alt="Faith Over Fear hoodie">
     </div>
@@ -79,7 +87,15 @@
       <label>Color<select><option>Black</option></select></label>
       <label>Size<select><option>Select size</option><option>S</option><option>M</option><option>L</option><option>XL</option><option>2XL</option><option>3XL</option></select></label>
       <button class="button button-primary" type="button" data-notify="Faith Over Fear Hoodie">Notify me when available</button>
-      <p class="notify-message" hidden></p>
+      <div class="notify-message merch-watchlist-card" hidden aria-live="polite">
+        <div class="watchlist-heading"><span class="watchlist-check" aria-hidden="true">✓</span><strong>Added to your Merch Watchlist</strong></div>
+        <p>You’ll be among the first to know when this piece launches.</p>
+        <p class="watchlist-benefits">Early access <span aria-hidden="true">•</span> Restock alerts <span aria-hidden="true">•</span> Limited drops</p>
+        <div class="watchlist-confirmation">
+          <span class="watchlist-confirmation-check" aria-hidden="true">✓</span>
+          <div><strong>You’re on the list.</strong><span>We’ll email you before anyone else.</span></div>
+        </div>
+      </div>
     </div>
   </article>
 </section>
