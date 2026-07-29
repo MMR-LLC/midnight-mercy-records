@@ -184,26 +184,6 @@ lightbox.addEventListener("click", event => {
   if (event.target === lightbox) lightbox.close();
 });
 
-document.querySelectorAll("[data-notify]").forEach(button => {
-  button.addEventListener("click", () => {
-    const product = button.closest("[data-product], .catalog-product");
-    const message = product?.querySelector(".notify-message");
-    if (!message) return;
-
-    button.classList.add("is-saving");
-    button.textContent = "Adding…";
-    button.disabled = true;
-
-    window.setTimeout(() => {
-      button.classList.remove("is-saving");
-      button.classList.add("is-saved");
-      button.textContent = "✓ You’re on the list";
-      message.hidden = false;
-      requestAnimationFrame(() => message.classList.add("is-visible"));
-    }, 450);
-  });
-});
-
 
 document.querySelectorAll("[data-catalog-image]").forEach(button => {
   button.addEventListener("click", () => {

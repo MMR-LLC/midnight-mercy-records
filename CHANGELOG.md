@@ -1,3 +1,10 @@
+# Website v1.0.7 — Honest merch coming-soon state
+
+- Removed the non-functional merch watchlist confirmation.
+- Removed the JavaScript that claimed a visitor was on a list without collecting an email address.
+- Replaced each watchlist control with an honest “Available soon” message.
+- Added a working “Join the Community” link to the existing Kit signup section for real launch updates.
+
 # Changelog
 
 ## v1.0.6 — Premium Merch Watchlist

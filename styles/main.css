@@ -1370,3 +1370,29 @@ a:focus-visible {
   .merch-watchlist-card { padding: 18px; }
   .merch-watchlist-card .watchlist-benefits { line-height: 1.8; }
 }
+
+
+/* v1.0.7 — Honest merch coming-soon state. */
+.merch-coming-soon {
+  margin-top: 1.1rem;
+  padding: 1rem 1.1rem;
+  border: 1px solid rgba(211, 174, 106, .38);
+  background: rgba(211, 174, 106, .06);
+  display: grid;
+  gap: .4rem;
+}
+.merch-coming-soon strong {
+  color: var(--gold, #d3ae6a);
+  font-size: .78rem;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+}
+.merch-coming-soon span {
+  color: var(--muted, #b8b5b1);
+  line-height: 1.6;
+}
+.catalog-info .merch-coming-soon + .button {
+  width: 100%;
+  margin-top: .75rem;
+  text-align: center;
+}
