@@ -1,3 +1,10 @@
+# Changelog
+
+## v1.0.8 — Spotify Album Player
+- Added a polished, responsive Spotify album player for *Dust To Grace* to the Music page.
+- Added a direct Spotify album link as a fallback and accessibility option.
+- Styled the listening panel to match Midnight Mercy Records' dark, premium visual identity.
+
 # Website v1.0.7 — Honest merch coming-soon state
 
 - Removed the non-functional merch watchlist confirmation.
