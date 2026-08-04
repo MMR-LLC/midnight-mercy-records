@@ -1573,3 +1573,47 @@ a:focus-visible {
     margin-inline: 0;
   }
 }
+
+/* =========================================================
+   v1.2.1 — Music page banner alignment correction
+   Keep both closing callout panels on the same centered grid.
+   ========================================================= */
+.music-page .find-hope-banner {
+  width: min(calc(100% - 48px), var(--max));
+  max-width: var(--max);
+  margin: 0 auto 100px;
+}
+
+@media (max-width: 560px) {
+  .music-page .find-hope-banner {
+    width: calc(100% - 32px);
+    margin-bottom: 64px;
+    padding: 34px 24px;
+  }
+
+  .music-page .find-hope-banner .button {
+    width: 100%;
+  }
+}
+
+/* =========================================================
+   v1.2.2 — About page closing panel alignment correction
+   Match the centered site grid used by the values section.
+   ========================================================= */
+.about-page .contact-panel {
+  width: min(calc(100% - 48px), var(--max));
+  max-width: var(--max);
+  margin: 0 auto 100px;
+}
+
+@media (max-width: 560px) {
+  .about-page .contact-panel {
+    width: calc(100% - 32px);
+    margin-bottom: 64px;
+    padding: 34px 24px;
+  }
+
+  .about-page .contact-panel .button {
+    width: 100%;
+  }
+}

@@ -66,3 +66,14 @@
 - Changed the Kit email placeholder to “Enter your email address.”
 - Changed the signup button label to “❤️ Join the Community.”
 - Added a Kit Creator Network recommendations removal checklist for the account-level setting.
+
+## v1.2.1
+- Corrected the Music page closing-banner alignment.
+- Centered the “Not sure where to begin?” panel on the same 1220px site grid as the Community panel.
+- Added consistent mobile gutters and full-width mobile CTA behavior for the Find a Song panel.
+
+## v1.2.2 — About Page Alignment Fix
+- Centered the About page “Join the Midnight Mercy community” panel on the same site grid as the values section.
+- Removed the viewport-based horizontal offset from that panel.
+- Added balanced mobile gutters and a full-width mobile call-to-action button.
+- Includes the Music page alignment correction from v1.2.1.
