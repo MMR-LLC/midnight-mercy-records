@@ -1,3 +1,11 @@
+# v1.3.1 — Discover Page Refinements
+
+- Removed duplicate large social-profile cards while retaining the compact social icons.
+- Replaced the Spotify artwork thumbnail with a recognizable Spotify logo.
+- Combined streaming and website destinations into one link section, with Midnight Mercy Records placed last.
+- Updated the Community button to target the email signup form directly, with improved mobile scroll positioning.
+- Restyled AI Transparency & Disclaimer as a full, visible card matching the other links.
+
 # Changelog
 ## v1.2 — Mobile polish and storefront pause
 - Hid the homepage merch section without deleting its markup.

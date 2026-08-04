@@ -1617,3 +1617,8 @@ a:focus-visible {
     width: 100%;
   }
 }
+
+
+/* v1.3.1: direct mobile landing point for the community signup */
+#community-signup { scroll-margin-top: 140px; }
+@media (max-width: 640px) { #community-signup { scroll-margin-top: 190px; } }
