@@ -77,3 +77,10 @@
 - Removed the viewport-based horizontal offset from that panel.
 - Added balanced mobile gutters and a full-width mobile call-to-action button.
 - Includes the Music page alignment correction from v1.2.1.
+
+## v1.3.0 — Discover Artist Hub
+- Added a standalone mobile-first artist link hub at `/discover/`.
+- Added featured Your Light Remix pre-save card.
+- Added Spotify, Apple Music, YouTube, Amazon Music, Pandora, website, and social links.
+- Added Midnight Mercy Community call-to-action and AI transparency disclosure.
+- Kept the page out of all site navigation and added `noindex, nofollow, noarchive` metadata.
