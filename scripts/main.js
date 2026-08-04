@@ -142,17 +142,30 @@ document.querySelectorAll("[data-burden]").forEach(button => {
     document.querySelectorAll("[data-burden]").forEach(item => item.classList.remove("is-active"));
     button.classList.add("is-active");
     const item = burdenContent[button.dataset.burden];
+    if (!recommendation || !item) return;
     recommendation.innerHTML = `
       <p class="eyebrow">${item.eyebrow}</p>
       <h3>${item.title}</h3>
       <p class="recommendation-copy">${item.copy}</p>
       <div class="recommended-songs">
         ${item.songs.map((song, index) => `
-          <a href="#music"><span>0${index + 1}</span><div><strong>${song[0]}</strong><small>${song[1]}</small></div></a>
+          <a href="dust-to-grace.html"><span>0${index + 1}</span><div><strong>${song[0]}</strong><small>${song[1]}</small></div></a>
         `).join("")}
       </div>
-      <a class="text-link" href="#music">Explore the album <span>→</span></a>
+      <a class="text-link" href="dust-to-grace.html">Explore the album <span>→</span></a>
     `;
+
+    // v1.2 — Bring the updated recommendation into view on smaller screens.
+    if (window.matchMedia("(max-width: 820px)").matches) {
+      const headerOffset = header ? header.offsetHeight + 14 : 14;
+      const targetTop = recommendation.getBoundingClientRect().top + window.scrollY - headerOffset;
+      window.requestAnimationFrame(() => {
+        window.scrollTo({
+          top: Math.max(0, targetTop),
+          behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth"
+        });
+      });
+    }
   });
 });
 
@@ -171,18 +184,24 @@ document.querySelectorAll("[data-product]").forEach(product => {
 
 const lightbox = document.querySelector("[data-lightbox]");
 const lightboxImage = document.querySelector("[data-lightbox-image]");
-document.querySelectorAll("[data-zoom]").forEach(button => {
-  button.addEventListener("click", () => {
-    const image = button.closest("[data-product]").querySelector("[data-product-main]");
-    lightboxImage.src = image.src;
-    lightboxImage.alt = image.alt;
-    lightbox.showModal();
+if (lightbox && lightboxImage) {
+  document.querySelectorAll("[data-zoom]").forEach(button => {
+    button.addEventListener("click", () => {
+      const image = button.closest("[data-product]")?.querySelector("[data-product-main]");
+      if (!image) return;
+      lightboxImage.src = image.src;
+      lightboxImage.alt = image.alt;
+      lightbox.showModal();
+    });
   });
-});
-document.querySelector("[data-lightbox-close]").addEventListener("click", () => lightbox.close());
-lightbox.addEventListener("click", event => {
-  if (event.target === lightbox) lightbox.close();
-});
+}
+const lightboxClose = document.querySelector("[data-lightbox-close]");
+if (lightbox && lightboxClose) {
+  lightboxClose.addEventListener("click", () => lightbox.close());
+  lightbox.addEventListener("click", event => {
+    if (event.target === lightbox) lightbox.close();
+  });
+}
 
 
 document.querySelectorAll("[data-catalog-image]").forEach(button => {

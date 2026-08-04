@@ -1,4 +1,13 @@
 # Changelog
+## v1.2 — Mobile polish and storefront pause
+- Hid the homepage merch section without deleting its markup.
+- Removed Merch from shared navigation.
+- Added mobile auto-scroll to selected song recommendations.
+- Improved Spotify player centering, width, and spacing.
+- Added responsive spacing refinements.
+- Added and linked favicon assets across all pages.
+- Added null guards for shared lightbox JavaScript.
+
 
 ## v1.0.8 — Spotify Album Player
 - Added a polished, responsive Spotify album player for *Dust To Grace* to the Music page.
