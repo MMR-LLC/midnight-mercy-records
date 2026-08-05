@@ -92,3 +92,15 @@
 - Added Spotify, Apple Music, YouTube, Amazon Music, Pandora, website, and social links.
 - Added Midnight Mercy Community call-to-action and AI transparency disclosure.
 - Kept the page out of all site navigation and added `noindex, nofollow, noarchive` metadata.
+
+## v1.4 — Discover page system and polish
+
+- Removed the visible `@ashanlevimusic` line from `/discover`.
+- Added a subtle page-load fade and lift animation with reduced-motion support.
+- Added desktop hover lift, border glow, and mobile press feedback.
+- Added a smart featured-release renderer controlled by `discover/discover-config.js`.
+- Added full Open Graph, Twitter Card, canonical, and indexable metadata.
+- Added `assets/og/discover-preview.jpg` for link previews.
+- Added permanent QR code `assets/qr/discover-qr.png` pointing to `https://midnightmercyrecords.com/discover/`.
+- Added a strict page-level Content Security Policy for `/discover`.
+- Added `_headers` as a deploy-ready security-header policy for hosts that support it. GitHub Pages does not apply custom response headers from this file.
