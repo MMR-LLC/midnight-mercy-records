@@ -11,8 +11,8 @@ window.DISCOVER_CONFIG = {
     releaseDate: "Release Date • August 21, 2026",
     artwork: "../assets/albums/redemption.jpg",
     artworkAlt: "REDEMPTION album artwork by Ashan Levi",
-    url: "../index.html#community-signup",
-    cta: "Join the Community →",
-    openInNewTab: false
+    url: "https://distrokid.com/hyperfollow/ashanlevi/redemption",
+    cta: "Pre-save REDEMPTION →",
+    openInNewTab: true
   }
 };

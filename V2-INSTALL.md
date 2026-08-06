@@ -15,7 +15,7 @@
 - The featured card says **COMING AUGUST 21** and **REDEMPTION**.
 - The card says **The new album from Ashan Levi**.
 - The release date is **August 21, 2026**.
-- **Join the Community →** opens the community signup section.
+- **Pre-save REDEMPTION →** opens the official DistroKid pre-save page.
 - Streaming links and social icons still open correctly.
 - The page fits cleanly on a phone without the CTA crowding the card.
 - The homepage Featured Release also shows **REDEMPTION**, not Your Light Remix.

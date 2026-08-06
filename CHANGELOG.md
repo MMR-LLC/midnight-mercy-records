@@ -7,6 +7,8 @@
 - Polished the Midnight Mercy Records website card.
 - Updated Discover page title, description, Open Graph, and Twitter/X metadata for REDEMPTION.
 - Replaced the homepage Your Light Remix campaign with the REDEMPTION featured release and removed its pre-save links.
+- Added the official REDEMPTION DistroKid pre-save link to the homepage and Discover campaign.
+- Changed the Discover artwork layout so the complete square album cover remains visible on desktop and mobile.
 - Removed the leftover `discover_index.tmp` file.
 
 # v1.3.1 — Discover Page Refinements
