@@ -104,11 +104,13 @@
 - Added permanent QR code `assets/qr/discover-qr.png` pointing to `https://midnightmercyrecords.com/discover/`.
 - Added a strict page-level Content Security Policy for `/discover`.
 - Added `_headers` as a deploy-ready security-header policy for hosts that support it. GitHub Pages does not apply custom response headers from this file.
-## v1.5 — Premium Discover link preview
 
-- Refined the `/discover/` page title and search description.
-- Updated Open Graph title and description for cleaner text-message and social previews.
-- Added Open Graph locale, secure image URL, and explicit JPEG image type.
-- Added complete Twitter/X large-card metadata and accessible image alt text.
-- Versioned the preview-image URL to encourage platforms to refresh cached previews.
+## v1.5.2 — REDEMPTION Coming Soon
 
+- Removed the Your Light Remix promotion from the Discover page.
+- Replaced it with a REDEMPTION coming-soon featured card.
+- Added the message “The next chapter is almost here.”
+- Changed the featured-card call to action to “Join the Midnight Mercy Community.”
+- Linked the entire featured card to the Community signup section.
+- Added a REDEMPTION-focused 1200 × 630 social preview image.
+- Updated Open Graph and Twitter/X metadata to reflect the upcoming album.
