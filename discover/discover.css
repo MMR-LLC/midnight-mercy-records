@@ -89,3 +89,7 @@ html.is-loaded .shell { animation: discover-page-in .55s ease-out forwards; }
 }
 
 .service-letter{font-weight:900}.service-letter-amazon{font-size:1.45rem}.service-letter-pandora{font-size:1.35rem}
+
+
+/* v1.5.6 polish */
+.feature-cta{display:inline-block;width:auto;max-width:max-content;padding:.8rem 1.2rem;}
