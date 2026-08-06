@@ -248,7 +248,7 @@ const brandKitForm = root => {
     if (label.textContent.trim() !== "❤️ Join the Community") {
       label.textContent = "❤️ Join the Community";
     }
-    button.setAttribute("aria-label", "Join the Midnight Mercy Community");
+    button.setAttribute("aria-label", "Join the Community");
   });
 };
 
