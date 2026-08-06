@@ -5,7 +5,7 @@
 1. Open the `midnight-mercy-records` repository on GitHub.
 2. Choose **Add file → Upload files**.
 3. Drag the contents of the v2.0 update package into the repository, keeping the included folder structure.
-4. Confirm that GitHub shows the four updated files inside `discover/`, plus `CHANGELOG.md` and this guide.
+4. Confirm that GitHub shows the four updated files inside `discover/`, the updated homepage `index.html`, plus `CHANGELOG.md` and this guide.
 5. Delete `discover_index.tmp` from the repository if it still appears online.
 6. Commit the upload to the `main` branch.
 7. Allow GitHub Pages a few minutes to deploy, then open `https://midnightmercyrecords.com/discover/` in a private browser window.
@@ -18,6 +18,7 @@
 - **Join the Community →** opens the community signup section.
 - Streaming links and social icons still open correctly.
 - The page fits cleanly on a phone without the CTA crowding the card.
+- The homepage Featured Release also shows **REDEMPTION**, not Your Light Remix.
 
 ## Future campaign updates
 
