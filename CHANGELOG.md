@@ -1,3 +1,13 @@
+# v2.0 — REDEMPTION Discover Campaign
+
+- Rebuilt the `/discover/` featured campaign around **REDEMPTION**.
+- Added “COMING AUGUST 21,” “The new album from Ashan Levi,” and the full August 21, 2026 release date.
+- Expanded `discover-config.js` so campaign label, title, subtitle, date, artwork, destination, CTA, and visibility can be updated centrally.
+- Improved mobile spacing, card proportions, CTA sizing, and touch targets.
+- Polished the Midnight Mercy Records website card.
+- Updated Discover page title, description, Open Graph, and Twitter/X metadata for REDEMPTION.
+- Removed the leftover `discover_index.tmp` file.
+
 # v1.3.1 — Discover Page Refinements
 
 - Removed duplicate large social-profile cards while retaining the compact social icons.

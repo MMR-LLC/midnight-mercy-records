@@ -19,12 +19,15 @@
       const values = {
         '[data-feature-label]': release.label,
         '[data-feature-title]': release.title,
-        '[data-feature-artists]': release.artists,
+        '[data-feature-subtitle]': release.subtitle,
+        '[data-feature-date]': release.releaseDate,
         '[data-feature-cta]': release.cta
       };
       Object.entries(values).forEach(([selector, value]) => {
         const node = feature.querySelector(selector);
-        if (node && value) node.textContent = value;
+        if (!node) return;
+        node.textContent = value || '';
+        node.hidden = !value;
       });
 
       const art = feature.querySelector('[data-feature-art]');
@@ -32,6 +35,8 @@
         art.src = release.artwork;
         art.alt = release.artworkAlt || `${release.title} cover artwork`;
       }
+
+      feature.dataset.campaignStatus = release.status || 'coming-soon';
     }
   }
 

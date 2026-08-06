@@ -4,14 +4,15 @@
  */
 window.DISCOVER_CONFIG = {
   featuredRelease: {
-    status: "coming-soon", // presave | out-now | video | coming-soon | hidden
-    label: "COMING SOON",
+    status: "coming-soon", // coming-soon | presave | out-now | video | hidden
+    label: "COMING AUGUST 21",
     title: "REDEMPTION",
-    artists: "The next chapter is almost here.",
+    subtitle: "The new album from Ashan Levi",
+    releaseDate: "Release Date • August 21, 2026",
     artwork: "../assets/albums/redemption.jpg",
     artworkAlt: "REDEMPTION album artwork by Ashan Levi",
     url: "../index.html#community-signup",
-    cta: "Join the Midnight Mercy Community →",
+    cta: "Join the Community →",
     openInNewTab: false
   }
 };
