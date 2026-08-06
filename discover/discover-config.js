@@ -4,14 +4,14 @@
  */
 window.DISCOVER_CONFIG = {
   featuredRelease: {
-    status: "presave", // presave | out-now | video | hidden
-    label: "Featured release",
-    title: "Your Light Remix",
-    artists: "Ashan Levi • Noah Graves • Ava Thorn",
-    artwork: "../assets/albums/your-light-remix.jpg",
-    artworkAlt: "Your Light Remix cover artwork",
-    url: "https://distrokid.com/hyperfollow/ashanlevinoahgravesavathorn/your-light-remix?ref=release",
-    cta: "Pre-save now →",
-    openInNewTab: true
+    status: "coming-soon", // presave | out-now | video | coming-soon | hidden
+    label: "COMING SOON",
+    title: "REDEMPTION",
+    artists: "The next chapter is almost here.",
+    artwork: "../assets/albums/redemption.jpg",
+    artworkAlt: "REDEMPTION album artwork by Ashan Levi",
+    url: "../index.html#community-signup",
+    cta: "Join the Midnight Mercy Community →",
+    openInNewTab: false
   }
 };
