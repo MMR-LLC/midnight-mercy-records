@@ -1,0 +1,145 @@
+/* Midnight Mercy Community — Brevo form integration */
+.brevo-form-wrap {
+  width: 100%;
+  margin-top: 28px;
+}
+
+.brevo-form {
+  display: grid;
+  gap: 18px;
+}
+
+.brevo-form-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 10px;
+  align-items: start;
+}
+
+.brevo-email-field,
+.brevo-email-field .form__entry,
+.brevo-email-field .entry__field {
+  min-width: 0;
+  width: 100%;
+}
+
+.brevo-email-field input {
+  width: 100%;
+  min-height: 56px;
+  padding: 0 18px;
+  color: var(--text);
+  background: rgba(255,255,255,.035);
+  border: 1px solid rgba(201,164,106,.42);
+  border-radius: 0;
+  outline: none;
+  transition: border-color .2s ease, box-shadow .2s ease;
+}
+
+.brevo-email-field input::placeholder {
+  color: #8f9299;
+}
+
+.brevo-email-field input:focus {
+  border-color: var(--gold-light);
+  box-shadow: 0 0 0 3px rgba(201,164,106,.12);
+}
+
+.brevo-submit {
+  min-height: 56px;
+  padding: 14px 24px;
+  color: #080a0d;
+  background: var(--gold);
+  border: 1px solid var(--gold);
+  border-radius: 0;
+  cursor: pointer;
+  font: 700 .72rem/1 var(--sans);
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  transition: transform .2s ease, background .2s ease;
+}
+
+.brevo-submit:hover,
+.brevo-submit:focus-visible {
+  background: var(--gold-light);
+  transform: translateY(-2px);
+  outline: none;
+}
+
+.brevo-submit:active {
+  transform: translateY(1px);
+}
+
+.brevo-captcha {
+  min-height: 78px;
+  overflow: hidden;
+}
+
+.brevo-captcha .g-recaptcha {
+  transform-origin: left top;
+}
+
+.brevo-form-message {
+  display: none;
+  margin: 0 0 18px;
+  padding: 14px 16px;
+  border: 1px solid;
+  font-size: .86rem;
+  line-height: 1.55;
+  text-align: left;
+}
+
+.brevo-form-error {
+  color: #ffd8d8;
+  background: rgba(128,25,25,.18);
+  border-color: rgba(255,100,100,.5);
+}
+
+.brevo-form-success {
+  color: var(--text);
+  background: rgba(201,164,106,.08);
+  border-color: rgba(201,164,106,.48);
+}
+
+.brevo-form .entry__error {
+  display: block;
+  margin-top: 7px;
+  color: #ffb4b4;
+  font-size: .75rem;
+  text-align: left;
+}
+
+.brevo-form .input--hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+
+@media (max-width: 720px) {
+  .brevo-form-row {
+    grid-template-columns: 1fr;
+  }
+
+  .brevo-submit {
+    width: 100%;
+  }
+}
+
+@media (max-width: 390px) {
+  .brevo-captcha {
+    min-height: 62px;
+  }
+
+  .brevo-captcha .g-recaptcha {
+    transform: scale(.78);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .brevo-submit {
+    transition: none;
+  }
+}
