@@ -13,6 +13,7 @@
 <link href="favicon.ico" rel="icon" sizes="any"/>
 <link href="favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
 <link href="apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
+<link rel="stylesheet" href="https://sibforms.com/forms/end-form/build/sib-styles.css"/>
 <link href="styles/main.css" rel="stylesheet"/>
 <script defer="" src="scripts/main.js"></script>
 </head>
@@ -80,25 +81,46 @@
 <li>Exclusive content &amp; future releases</li>
 </ul>
 <div aria-label="Midnight Mercy Community email signup" class="brevo-form-wrap" id="community-signup">
-<div id="error-message" class="brevo-message brevo-error" role="alert">Your subscription could not be saved. Please try again.</div>
-<div id="success-message" class="brevo-message brevo-success" role="status">Almost there! Check your inbox and click the confirmation link to join the Midnight Mercy Community.</div>
+<div id="error-message" class="sib-form-message-panel brevo-message brevo-error" role="alert">
+  <div class="sib-form-message-panel__text sib-form-message-panel__text--center">
+    <span class="sib-form-message-panel__inner-text">Your subscription could not be saved. Please try again.</span>
+  </div>
+</div>
+<div id="success-message" class="sib-form-message-panel brevo-message brevo-success" role="status">
+  <div class="sib-form-message-panel__text sib-form-message-panel__text--center">
+    <span class="sib-form-message-panel__inner-text">Almost there! Check your inbox and click the confirmation link to join the Midnight Mercy Community.</span>
+  </div>
+</div>
 <form id="sib-form" class="brevo-signup-form" method="POST" action="https://cebac763.sibforms.com/serve/MUIFANSbQx_dRWOwnpGuiC2vHOtA7fFjNxFBT1xSiEpf4lB-uehy7-_QUwrmiHM6LulkQjwISZdaacPh91JIPLyUcJNGg8kwxVjR_eH-DSF4uktQFNGxNOYQrYqLR8ZKyIsfaDi-G9id8NuQZZtIhCiiGlqVV0oOai3MP3tij52I4zzDw7KHZJSIt4cRE6UpAOOT5nP5wD-BEFbfLw==" data-type="subscription">
-<label class="sr-only" for="EMAIL">Enter your email to join the community</label>
-<div class="brevo-fields">
-<input type="email" id="EMAIL" name="EMAIL" autocomplete="email" placeholder="Enter your email address" data-required="true" required />
-<button type="submit">❤️ Join the Community</button>
-</div>
-<label class="entry__error entry__error--primary brevo-field-error"></label>
-<div class="sib-captcha">
-<div class="form__entry entry_block">
-<div class="form__label-row">
-<div class="g-recaptcha sib-visible-recaptcha" id="sib-captcha" data-sitekey="6LdKBXstAAAAAIERpNCQ8HmCSppe2Z_S0mMtL5Zc" data-callback="handleCaptchaResponse"></div>
-</div>
-<label class="entry__error entry__error--primary brevo-field-error"></label>
-</div>
-</div>
-<input type="text" name="email_address_check" value="" class="input--hidden" tabindex="-1" autocomplete="off" aria-hidden="true" />
-<input type="hidden" name="locale" value="en" />
+  <div class="sib-input sib-form-block brevo-email-block">
+    <div class="form__entry entry_block">
+      <div class="form__label-row">
+        <label class="sr-only entry__label" for="EMAIL" data-required="*">Enter your email to join the community</label>
+        <div class="entry__field">
+          <input class="input" type="text" id="EMAIL" name="EMAIL" autocomplete="email" value="" placeholder="Enter your email address" data-required="true" required />
+        </div>
+      </div>
+      <label class="entry__error entry__error--primary brevo-field-error"></label>
+    </div>
+  </div>
+  <div class="brevo-submit-block">
+    <button class="sib-form-block__button sib-form-block__button-with-loader" form="sib-form" type="submit">
+      <svg class="icon clickable__icon progress-indicator__icon sib-hide-loader-icon" viewBox="0 0 512 512" aria-hidden="true">
+        <path d="M460.116 373.846l-20.823-12.022c-5.541-3.199-7.54-10.159-4.663-15.874 30.137-59.886 28.343-131.652-5.386-189.946-33.641-58.394-94.896-95.833-161.827-99.676C261.028 55.961 256 50.751 256 44.352V20.309c0-6.904 5.808-12.337 12.703-11.982 83.556 4.306 160.163 50.864 202.11 123.677 42.063 72.696 44.079 162.316 6.031 236.832-3.14 6.148-10.75 8.461-16.728 5.01z"/>
+      </svg>
+      ❤️ Join the Community
+    </button>
+  </div>
+  <div class="sib-captcha sib-form-block brevo-captcha-block">
+    <div class="form__entry entry_block">
+      <div class="form__label-row">
+        <div class="g-recaptcha sib-visible-recaptcha" id="sib-captcha" data-sitekey="6LdKBXstAAAAAIERpNCQ8HmCSppe2Z_S0mMtL5Zc" data-callback="handleCaptchaResponse"></div>
+      </div>
+      <label class="entry__error entry__error--primary brevo-field-error"></label>
+    </div>
+  </div>
+  <input type="text" name="email_address_check" value="" class="input--hidden" tabindex="-1" autocomplete="off" aria-hidden="true" />
+  <input type="hidden" name="locale" value="en" />
 </form>
 </div>
 <p class="form-note">No spam. Just hope, new music, and meaningful updates delivered straight to your inbox.</p>

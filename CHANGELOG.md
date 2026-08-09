@@ -1,3 +1,13 @@
+## v2.2 — Brevo Signup Fix
+
+- Restored Brevo's required form DOM structure so its validation/submission script can bind correctly.
+- Fixed the Join the Community submit button.
+- Fixed success/error notices so they stay hidden until Brevo triggers them.
+- Fixed the honeypot field so it remains hidden.
+- Added Brevo's official form stylesheet before site styles and retained Midnight Mercy visual overrides.
+- Kept reCAPTCHA and double opt-in intact.
+- Updated CSP entries for Brevo and Google reCAPTCHA on hosts that honor `_headers`.
+
 ## v2.1 — Brevo Community Signup
 - Replaced Kit website signup with Brevo.
 - Preserved Midnight Mercy styling.
