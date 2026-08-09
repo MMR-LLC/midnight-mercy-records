@@ -215,7 +215,8 @@ document.querySelectorAll("[data-catalog-image]").forEach(button => {
 });
 
 
-// v1.0.5 — Mobile menu accessibility and Kit form branding.
+// v1.0.5 — Mobile menu accessibility.
+
 if (menuButton && navigation) {
   document.addEventListener("keydown", event => {
     if (event.key !== "Escape" || !navigation.classList.contains("open")) return;
@@ -236,28 +237,3 @@ if (menuButton && navigation) {
   });
 }
 
-const brandKitForm = root => {
-  const scope = root && root.querySelectorAll ? root : document;
-  scope.querySelectorAll(".kit-form-wrap input[type='email']").forEach(input => {
-    input.placeholder = "Enter your email address";
-    input.setAttribute("aria-label", "Email address");
-  });
-
-  scope.querySelectorAll(".kit-form-wrap button[type='submit'], .kit-form-wrap .formkit-submit").forEach(button => {
-    const label = button.querySelector("span") || button;
-    if (label.textContent.trim() !== "❤️ Join the Community") {
-      label.textContent = "❤️ Join the Community";
-    }
-    button.setAttribute("aria-label", "Join the Community");
-  });
-};
-
-brandKitForm(document);
-const kitObserver = new MutationObserver(mutations => {
-  for (const mutation of mutations) {
-    for (const node of mutation.addedNodes) {
-      if (node.nodeType === Node.ELEMENT_NODE) brandKitForm(node);
-    }
-  }
-});
-kitObserver.observe(document.documentElement, { childList: true, subtree: true });

@@ -1,3 +1,9 @@
+## v2.1 — Brevo Community Signup
+- Replaced Kit website signup with Brevo.
+- Preserved Midnight Mercy styling.
+- Added Brevo double-opt-in success/error handling and reCAPTCHA.
+- Removed Kit-specific signup JavaScript.
+
 # v2.0 — REDEMPTION Discover Campaign
 
 - Rebuilt the `/discover/` featured campaign around **REDEMPTION**.

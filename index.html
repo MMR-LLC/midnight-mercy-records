@@ -79,8 +79,27 @@
 <li>Early announcements</li>
 <li>Exclusive content &amp; future releases</li>
 </ul>
-<div aria-label="Midnight Mercy Community email signup" class="kit-form-wrap" id="community-signup">
-<script async="" data-uid="8dcf362b16" src="https://midnight-mercy-records.kit.com/8dcf362b16/index.js"></script>
+<div aria-label="Midnight Mercy Community email signup" class="brevo-form-wrap" id="community-signup">
+<div id="error-message" class="brevo-message brevo-error" role="alert">Your subscription could not be saved. Please try again.</div>
+<div id="success-message" class="brevo-message brevo-success" role="status">Almost there! Check your inbox and click the confirmation link to join the Midnight Mercy Community.</div>
+<form id="sib-form" class="brevo-signup-form" method="POST" action="https://cebac763.sibforms.com/serve/MUIFANSbQx_dRWOwnpGuiC2vHOtA7fFjNxFBT1xSiEpf4lB-uehy7-_QUwrmiHM6LulkQjwISZdaacPh91JIPLyUcJNGg8kwxVjR_eH-DSF4uktQFNGxNOYQrYqLR8ZKyIsfaDi-G9id8NuQZZtIhCiiGlqVV0oOai3MP3tij52I4zzDw7KHZJSIt4cRE6UpAOOT5nP5wD-BEFbfLw==" data-type="subscription">
+<label class="sr-only" for="EMAIL">Enter your email to join the community</label>
+<div class="brevo-fields">
+<input type="email" id="EMAIL" name="EMAIL" autocomplete="email" placeholder="Enter your email address" data-required="true" required />
+<button type="submit">❤️ Join the Community</button>
+</div>
+<label class="entry__error entry__error--primary brevo-field-error"></label>
+<div class="sib-captcha">
+<div class="form__entry entry_block">
+<div class="form__label-row">
+<div class="g-recaptcha sib-visible-recaptcha" id="sib-captcha" data-sitekey="6LdKBXstAAAAAIERpNCQ8HmCSppe2Z_S0mMtL5Zc" data-callback="handleCaptchaResponse"></div>
+</div>
+<label class="entry__error entry__error--primary brevo-field-error"></label>
+</div>
+</div>
+<input type="text" name="email_address_check" value="" class="input--hidden" tabindex="-1" autocomplete="off" aria-hidden="true" />
+<input type="hidden" name="locale" value="en" />
+</form>
 </div>
 <p class="form-note">No spam. Just hope, new music, and meaningful updates delivered straight to your inbox.</p>
 </div>
@@ -303,5 +322,25 @@
 <button aria-label="Close enlarged image" data-lightbox-close="" type="button">×</button>
 <img alt="" data-lightbox-image="" src=""/>
 </dialog>
+
+<script>
+function handleCaptchaResponse() {
+  var event = new Event('captchaChange');
+  document.getElementById('sib-captcha').dispatchEvent(event);
+}
+window.REQUIRED_CODE_ERROR_MESSAGE = 'Please choose a country code';
+window.LOCALE = 'en';
+window.EMAIL_INVALID_MESSAGE = window.SMS_INVALID_MESSAGE = 'The information provided is invalid. Please review the field format and try again.';
+window.REQUIRED_ERROR_MESSAGE = 'This field cannot be left blank. ';
+window.GENERIC_INVALID_MESSAGE = 'The information provided is invalid. Please review the field format and try again.';
+window.INVALID_NUMBER = window.GENERIC_INVALID_MESSAGE;
+window.INVALID_DATE = 'Please enter a valid date';
+window.REQUIRED_MULTISELECT_MESSAGE = 'Please select at least 1 option';
+window.translation = { common: { selectedList: '{quantity} list selected', selectedLists: '{quantity} lists selected', selectedOption: '{quantity} selected', selectedOptions: '{quantity} selected' } };
+var AUTOHIDE = false;
+</script>
+<script defer src="https://sibforms.com/forms/end-form/build/main.js"></script>
+<script src="https://www.google.com/recaptcha/api.js?hl=en" async defer></script>
+
 </body>
 </html>
