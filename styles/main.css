@@ -1769,3 +1769,24 @@ a:focus-visible {
   .brevo-captcha-block { grid-column: 1; }
   .g-recaptcha { transform-origin: left top; max-width: 100%; }
 }
+
+/* v2.3 — preserve Brevo's required container DOM while keeping MMR styling */
+.brevo-form-wrap.sib-form {
+  padding: 0 !important;
+  background: transparent !important;
+  text-align: left !important;
+}
+.brevo-form-wrap .sib-form-container {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.brevo-form-wrap .brevo-sib-container {
+  max-width: none !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  text-align: left !important;
+}

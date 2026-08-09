@@ -1,3 +1,7 @@
+
+## v2.3 — Brevo form runtime fix
+- Restored Brevo's required `sib-form-container` and `sib-container` DOM wrappers so the official Brevo JavaScript can complete submissions instead of hanging on the loading spinner.
+- Kept the Midnight Mercy custom styling, CAPTCHA, double opt-in, and hidden anti-bot field intact.
 ## v2.2 — Brevo Signup Fix
 
 - Restored Brevo's required form DOM structure so its validation/submission script can bind correctly.
