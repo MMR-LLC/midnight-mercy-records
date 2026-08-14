@@ -1,4 +1,9 @@
 
+## v2.4.3 — REDEMPTION Pre-save CTA Fix
+
+- Changed the pre-release REDEMPTION Discover button from “Join the Community” to “Pre-save REDEMPTION.”
+- Connected the button directly to the official REDEMPTION HyperFollow pre-save page.
+
 ## v2.4.2 — Music Page Release Corrections
 
 - Replaced both Music page uses of the Your Light Remix artwork with the approved cover and added cache-busting so the old image is not retained by browsers.

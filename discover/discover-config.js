@@ -25,7 +25,7 @@ window.DISCOVER_CONFIG = {
     }
   },
   timeline: [
-    { from: "0000-01-01", primary: "redemption", primaryLabel: "COMING AUGUST 21", primaryCta: "Join the Community →", primaryUrl: "../index.html#community-signup", primaryNewTab: false, secondary: "remix", secondaryLabel: "COMING AUGUST 28", secondaryCta: "Pre-save →" },
+    { from: "0000-01-01", primary: "redemption", primaryLabel: "COMING AUGUST 21", primaryCta: "Pre-save REDEMPTION →", secondary: "remix", secondaryLabel: "COMING AUGUST 28", secondaryCta: "Pre-save →" },
     { from: "2026-08-21", primary: "redemption", primaryLabel: "OUT NOW", primaryCta: "Listen now →", secondary: "remix", secondaryLabel: "COMING AUGUST 28", secondaryCta: "Pre-save →" },
     { from: "2026-08-24", primary: "remix", primaryLabel: "COMING AUGUST 28", primaryCta: "Pre-save →", secondary: "redemption", secondaryLabel: "OUT NOW", secondaryCta: "Listen now →" },
     { from: "2026-08-28", primary: "remix", primaryLabel: "OUT NOW", primaryCta: "Listen now →", secondary: "redemption", secondaryLabel: "OUT NOW", secondaryCta: "Listen now →" }
