@@ -2,10 +2,10 @@
 
 ## Commit title
 
-`Fix Your Light Remix artwork in v2.4 Discover campaign`
+`Fix Music page artwork and add REDEMPTION album`
 
 ## Description
 
-Corrects the **Your Light Remix** cover artwork across the Discover and Music pages while retaining the v2.4 timeline-driven campaign for **REDEMPTION** and **Your Light Remix**.
+Corrects both **Your Light Remix** images on the Music page using the approved artwork and adds cache-busting so browsers stop displaying the previous cover.
 
-Also adds a compact secondary release card, a LISTEN EVERYWHERE divider, cleaner mobile spacing and typography, exact “Official Website” label copy, and preserves the existing official release destinations and artwork.
+Also publishes **REDEMPTION** in the Albums section beside **Dust To Grace**, including the August 21, 2026 release date, album artwork, and official pre-save link. The existing automated Discover campaign remains intact.

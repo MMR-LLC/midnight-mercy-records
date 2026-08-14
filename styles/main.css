@@ -560,6 +560,8 @@ h3 { margin: 0; font-size: 1.55rem; }
 .release-card > div:last-child { padding: 28px; }
 .release-card h3 { font-size: 2.6rem; }
 .release-card p { color: var(--muted); line-height: 1.6; }
+.release-card-cta { display: inline-block; margin-top: 14px; color: var(--gold-light); font-size: .78rem; letter-spacing: .11em; text-transform: uppercase; }
+.upcoming-release { border-color: rgba(201,164,106,.42); background: linear-gradient(145deg,rgba(201,164,106,.08),var(--surface) 58%); }
 .release-placeholder { display: grid; place-items: center; color: var(--muted); background: radial-gradient(circle, rgba(201,164,106,.12), transparent 45%), #090b0f; font-family: var(--serif); font-size: 2.4rem; }
 .find-hope-banner, .contact-panel, .streaming-panel {
   display: flex; align-items: center; justify-content: space-between; gap: 30px;
@@ -1040,12 +1042,6 @@ a:focus-visible {
   .music-featured-shell { padding: 18px; }
   .music-featured-copy h2 { font-size: clamp(3rem, 17vw, 4.4rem); }
   .music-community-banner .button { width: 100%; }
-}
-
-/* v1.0.4: Only currently public albums appear on the Music page. */
-.music-page .release-grid.single-live-release {
-  grid-template-columns: minmax(0, 1fr);
-  max-width: 560px;
 }
 
 /* =========================================================

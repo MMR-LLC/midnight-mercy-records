@@ -18,7 +18,7 @@ window.DISCOVER_CONFIG = {
       title: "Your Light Remix",
       subtitle: "Ashan Levi • Noah Graves",
       releaseDate: "Release Date • August 28, 2026",
-      artwork: "../assets/albums/Your_Light_Remix_Album_Cover_3000x3000.jpg",
+      artwork: "../assets/albums/Your_Light_Remix_Album_Cover_3000x3000.jpg?v=2.4.2",
       artworkAlt: "Your Light Remix cover artwork by Ashan Levi and Noah Graves",
       url: "https://distrokid.com/hyperfollow/ashanlevinoahgravesavathorn/your-light-remix?ref=release",
       openInNewTab: true

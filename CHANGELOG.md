@@ -1,4 +1,10 @@
 
+## v2.4.2 — Music Page Release Corrections
+
+- Replaced both Music page uses of the Your Light Remix artwork with the approved cover and added cache-busting so the old image is not retained by browsers.
+- Published REDEMPTION in the Albums section with its August 21, 2026 release date and official pre-save link.
+- Restored the two-album responsive grid for Dust To Grace and REDEMPTION.
+
 ## v2.4.1 — Correct Your Light Remix Artwork
 
 - Replaced the outdated Your Light Remix cover across the Discover and Music pages.
