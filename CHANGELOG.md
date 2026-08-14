@@ -1,4 +1,9 @@
 
+## v2.4.1 — Correct Your Light Remix Artwork
+
+- Replaced the outdated Your Light Remix cover across the Discover and Music pages.
+- Standardized the supplied artwork at 3000 × 3000 for consistent release display.
+
 ## v2.3 — Brevo form runtime fix
 - Restored Brevo's required `sib-form-container` and `sib-container` DOM wrappers so the official Brevo JavaScript can complete submissions instead of hanging on the loading spinner.
 - Kept the Midnight Mercy custom styling, CAPTCHA, double opt-in, and hidden anti-bot field intact.
@@ -17,6 +22,13 @@
 - Preserved Midnight Mercy styling.
 - Added Brevo double-opt-in success/error handling and reCAPTCHA.
 - Removed Kit-specific signup JavaScript.
+
+## v2.4 — Automated Discover Release Timeline
+
+- Added primary and secondary release cards for REDEMPTION and Your Light Remix.
+- Added automatic America/New_York campaign transitions for August 21, 24, and 28, 2026.
+- Added the LISTEN EVERYWHERE divider and simplified the Midnight Mercy Records subtitle to “Official Website.”
+- Refined Discover spacing and typography for mobile screens.
 
 # v2.0 — REDEMPTION Discover Campaign
 
