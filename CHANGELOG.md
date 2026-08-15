@@ -1,4 +1,11 @@
 
+## v2.4.4 — Redemption Guide Download Page
+
+- Added a branded, responsive `/redemption-guide/` landing page for the free Redemption Lyric & Scripture Guide.
+- Added the complete 38-page PDF at a stable same-domain download address.
+- Added direct calls to action for downloading the guide and listening to REDEMPTION.
+- Updated the homepage, Music page, and Discover page community calls to action to promote the free release-day guide.
+
 ## v2.4.3 — REDEMPTION Pre-save CTA Fix
 
 - Changed the pre-release REDEMPTION Discover button from “Join the Community” to “Pre-save REDEMPTION.”
