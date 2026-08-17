@@ -1,4 +1,11 @@
 
+## v2.4.6 — Mobile Guide Funnel Fixes
+
+- Changed the homepage “Get the Free Guide” button to land directly at the guide signup area instead of the top of the featured release.
+- Reduced oversized mobile typography and spacing so the homepage feels less cramped and zoomed in.
+- Prevented the featured release, community copy, and Brevo form from overflowing narrow phone screens.
+- Preserved the clean official Redemption HyperFollow URL while documenting the separate DistroKid pre-save configuration issue.
+
 ## v2.4.5 — Redemption Guide Artwork Fit
 
 - Corrected the desktop Redemption Guide page so the complete square album cover remains visible without cropping.

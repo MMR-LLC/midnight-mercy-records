@@ -2,13 +2,13 @@
 
 ## Commit title
 
-`Fix Redemption Guide album artwork cropping`
+`Fix mobile guide signup landing and page overflow`
 
 ## Description
 
-Corrects the Redemption Guide landing page artwork so the complete square album cover remains visible on desktop without cropping the side text or title.
+Changes the homepage “Get the Free Guide” button so it lands directly at the Redemption guide signup area instead of stopping at the top of the featured release.
 
-Preserves the responsive mobile layout, the complete 38-page Lyric & Scripture Guide download, and the official REDEMPTION listening link.
+Reduces oversized mobile typography and spacing, prevents the featured release and Brevo form from overflowing narrow screens, and preserves the official clean Redemption HyperFollow URL.
 
 The guide PDF is hosted on the Midnight Mercy Records domain at `/downloads/redemption-lyric-scripture-guide.pdf`, giving Brevo a stable, branded destination for the August 21 delivery campaign.
 
