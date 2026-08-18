@@ -2,13 +2,13 @@
 
 ## Commit title
 
-`Add Redemption Lyric & Scripture Guide download page`
+`Fix Instagram mobile overflow and guide landing`
 
 ## Description
 
-Adds a branded, mobile-responsive **Redemption Guide** landing page at `/redemption-guide/` for the Midnight Mercy Community release-day email campaign.
+Changes the homepage “Get the Free Guide” button so it lands directly at the Redemption guide signup area instead of stopping at the top of the featured release.
 
-The page includes the REDEMPTION artwork, a direct download for the complete 38-page Lyric & Scripture Guide, and a button leading listeners to the official REDEMPTION HyperFollow page.
+Adds final viewport containment for Instagram and other in-app mobile browsers, reduces oversized typography and spacing, and prevents the artwork, title, release copy, and Brevo form from overflowing narrow screens. The Redemption artwork now reserves its square dimensions so the page does not shift after an anchor jump.
 
 The guide PDF is hosted on the Midnight Mercy Records domain at `/downloads/redemption-lyric-scripture-guide.pdf`, giving Brevo a stable, branded destination for the August 21 delivery campaign.
 
