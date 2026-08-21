@@ -195,3 +195,12 @@
 - Linked the entire featured card to the Community signup section.
 - Added a REDEMPTION-focused 1200 × 630 social preview image.
 - Updated Open Graph and Twitter/X metadata to reflect the upcoming album.
+## v2.5.0 — REDEMPTION Release Day
+
+- Replaced REDEMPTION pre-save destinations with the official Spotify album link across the homepage, Music page, Discover page, and guide page.
+- Changed the remaining August 21 coming-soon language to release-day “Out Now” messaging.
+- Made REDEMPTION the homepage’s latest album and added a focused four-song introduction.
+- Replaced the Dust To Grace Music-page embed with the complete 12-song REDEMPTION Spotify player.
+- Changed guide messaging from future delivery to immediate availability and added direct download access for existing community members.
+- Reduced the oversized desktop REDEMPTION heading and strengthened containment to prevent the release panel from clipping.
+- Updated Discover metadata and cache keys for the live release.

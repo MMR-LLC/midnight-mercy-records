@@ -2,14 +2,14 @@
 
 ## Commit title
 
-`Fix Instagram mobile overflow and guide landing`
+`Launch REDEMPTION release-day website update`
 
 ## Description
 
-Changes the homepage “Get the Free Guide” button so it lands directly at the Redemption guide signup area instead of stopping at the top of the featured release.
+Switches the Midnight Mercy Records website from the REDEMPTION pre-save campaign to the live August 21 release.
 
-Adds final viewport containment for Instagram and other in-app mobile browsers, reduces oversized typography and spacing, and prevents the artwork, title, release copy, and Brevo form from overflowing narrow screens. The Redemption artwork now reserves its square dimensions so the page does not shift after an anchor jump.
+Replaces DistroKid pre-save destinations with the official Spotify album link, updates all remaining “Coming August 21” language to “Out Now,” makes REDEMPTION the latest homepage album, and embeds the complete 12-song Spotify player on the Music page.
 
-The guide PDF is hosted on the Midnight Mercy Records domain at `/downloads/redemption-lyric-scripture-guide.pdf`, giving Brevo a stable, branded destination for the August 21 delivery campaign.
+Updates the Redemption Guide and Discover pages for immediate guide availability, refreshes release metadata and cache keys, and corrects the oversized desktop REDEMPTION heading that could clip inside the featured-release panel.
 
-Updates the homepage, Music page, and Discover page signup messaging to offer the free guide directly, while preserving the existing Brevo community form and automation.
+Your Light Remix remains featured as the upcoming August 28 single and stays in Singles & Collaborations.

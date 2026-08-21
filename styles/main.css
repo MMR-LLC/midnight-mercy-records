@@ -949,7 +949,13 @@ a:focus-visible {
   opacity: .58;
 }
 .featured-release-copy { position: relative; z-index: 1; }
-.featured-release-copy h2 { margin: 10px 0 8px; font-size: clamp(3.3rem, 6vw, 6.4rem); line-height: .9; }
+.featured-release-copy h2 {
+  max-width: 100%;
+  margin: 10px 0 8px;
+  font-size: clamp(3.1rem, 5vw, 5.25rem);
+  line-height: .92;
+  overflow-wrap: anywhere;
+}
 .featured-release-copy h2 span { display: block; margin-top: 12px; color: var(--gold-light); font-size: .42em; letter-spacing: .08em; text-transform: uppercase; }
 .featured-artists { margin: 18px 0 0; color: rgba(255,255,255,.88); font-size: clamp(.9rem, 1.4vw, 1.05rem); font-weight: 600; letter-spacing: .08em; text-transform: uppercase; }
 .featured-artists span { color: var(--gold); padding: 0 7px; }
@@ -967,6 +973,7 @@ a:focus-visible {
 .kit-form-wrap { min-height: 96px; margin-top: 8px; }
 .kit-form-wrap .formkit-form { margin: 0 !important; max-width: none !important; }
 .form-note { margin-top: 14px; color: rgba(255,255,255,.52); font-size: .84rem; line-height: 1.6; }
+.guide-download-link { display: inline-block; margin-top: 16px; }
 @media (max-width: 940px) {
   .featured-release-shell { grid-template-columns: 1fr; }
   .featured-release-art { width: min(640px, 100%); margin-inline: auto; }
