@@ -2,14 +2,12 @@
 
 ## Commit title
 
-`Launch REDEMPTION release-day website update`
+`Fix REDEMPTION desktop artwork stretching`
 
 ## Description
 
-Switches the Midnight Mercy Records website from the REDEMPTION pre-save campaign to the live August 21 release.
+Locks the homepage REDEMPTION artwork to its complete square aspect ratio so it cannot stretch to the full height of the adjacent guide and signup content.
 
-Replaces DistroKid pre-save destinations with the official Spotify album link, updates all remaining “Coming August 21” language to “Out Now,” makes REDEMPTION the latest homepage album, and embeds the complete 12-song Spotify player on the Music page.
+Uses a contained image fit, top-aligns the artwork and release copy, and advances the stylesheet cache key so browsers receive the correction immediately.
 
-Updates the Redemption Guide and Discover pages for immediate guide availability, refreshes release metadata and cache keys, and corrects the oversized desktop REDEMPTION heading that could clip inside the featured-release panel.
-
-Your Light Remix remains featured as the upcoming August 28 single and stays in Singles & Collaborations.
+The v2.5.0 release-day Spotify links, player, Out Now messaging, guide availability, and Your Light Remix campaign remain unchanged.

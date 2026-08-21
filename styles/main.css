@@ -917,7 +917,7 @@ a:focus-visible {
   display: grid;
   grid-template-columns: minmax(320px, .92fr) minmax(420px, 1.08fr);
   gap: clamp(44px, 7vw, 96px);
-  align-items: center;
+  align-items: start;
   padding: clamp(24px, 4vw, 54px);
   border: 1px solid var(--line);
   background: linear-gradient(145deg, rgba(255,255,255,.035), rgba(201,164,106,.025));
@@ -931,12 +931,20 @@ a:focus-visible {
   pointer-events: none;
   background: radial-gradient(circle at 12% 20%, rgba(201,164,106,.10), transparent 31%);
 }
-.featured-release-art { position: relative; z-index: 1; }
+.featured-release-art {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  min-width: 0;
+  align-self: start;
+}
 .featured-release-art img {
   display: block;
   width: 100%;
-  aspect-ratio: 1;
-  object-fit: cover;
+  height: auto !important;
+  aspect-ratio: 1 / 1 !important;
+  object-fit: contain !important;
+  object-position: center !important;
   border: 1px solid rgba(255,255,255,.12);
   box-shadow: 0 30px 80px rgba(0,0,0,.58);
 }

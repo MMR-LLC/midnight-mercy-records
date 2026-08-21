@@ -195,6 +195,12 @@
 - Linked the entire featured card to the Community signup section.
 - Added a REDEMPTION-focused 1200 × 630 social preview image.
 - Updated Open Graph and Twitter/X metadata to reflect the upcoming album.
+## v2.5.1 — Redemption Artwork Containment
+
+- Locked the homepage REDEMPTION artwork to a complete square on desktop so it cannot stretch to the height of the guide/form column.
+- Changed the artwork fit from cropping to containment and aligned the cover with the top of the release copy.
+- Advanced the shared stylesheet cache key so the corrected artwork layout loads immediately.
+
 ## v2.5.0 — REDEMPTION Release Day
 
 - Replaced REDEMPTION pre-save destinations with the official Spotify album link across the homepage, Music page, Discover page, and guide page.
