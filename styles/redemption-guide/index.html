@@ -17,7 +17,8 @@
   <meta property="og:description" content="Download the free Redemption Lyric &amp; Scripture Guide from Ashan Levi.">
   <meta property="og:url" content="https://midnightmercyrecords.com/redemption-guide/">
   <meta property="og:image" content="https://midnightmercyrecords.com/assets/og/redemption-preview.jpg">
-  <link rel="stylesheet" href="guide.css?v=1.0.0">
+  <link rel="stylesheet" href="https://sibforms.com/forms/end-form/build/sib-styles.css">
+  <link rel="stylesheet" href="guide.css?v=1.1.0">
 </head>
 <body>
   <main class="page-shell">
@@ -33,12 +34,65 @@
         <p class="eyebrow">A Midnight Mercy Community Exclusive</p>
         <h1 id="guide-title">Your Redemption Guide Is Ready</h1>
         <p class="intro">Go deeper into the meaning, story, and Scripture behind every song on <em>Redemption</em>.</p>
-        <p class="details">This free 38-page Lyric &amp; Scripture Guide was created as a thank-you for being part of the Midnight Mercy Community.</p>
-        <div class="actions">
-          <a class="button button-primary" href="../downloads/redemption-lyric-scripture-guide.pdf" download>Download the Free Guide</a>
-          <a class="button button-secondary" href="https://distrokid.com/hyperfollow/ashanlevi/redemption" rel="noopener noreferrer" target="_blank">Listen to Redemption</a>
+        <p class="details">Join the Midnight Mercy Community with your email to unlock the free 38-page Lyric &amp; Scripture Guide.</p>
+
+        <div aria-label="Unlock the Redemption Guide by email" class="brevo-form-wrap sib-form" id="guide-signup">
+          <div id="sib-form-container" class="sib-form-container">
+            <div id="error-message" class="sib-form-message-panel brevo-message brevo-error" role="alert">
+              <div class="sib-form-message-panel__text sib-form-message-panel__text--center">
+                <span class="sib-form-message-panel__inner-text">Your signup could not be saved. Please try again.</span>
+              </div>
+            </div>
+            <div id="success-message" class="sib-form-message-panel brevo-message brevo-success" role="status">
+              <div class="sib-form-message-panel__text sib-form-message-panel__text--center">
+                <span class="sib-form-message-panel__inner-text">You’re in! Your guide is unlocked below.</span>
+              </div>
+            </div>
+            <div id="sib-container" class="sib-container--large sib-container--vertical brevo-sib-container">
+              <form id="sib-form" class="brevo-signup-form" method="POST" action="https://cebac763.sibforms.com/serve/MUIFANSbQx_dRWOwnpGuiC2vHOtA7fFjNxFBT1xSiEpf4lB-uehy7-_QUwrmiHM6LulkQjwISZdaacPh91JIPLyUcJNGg8kwxVjR_eH-DSF4uktQFNGxNOYQrYqLR8ZKyIsfaDi-G9id8NuQZZtIhCiiGlqVV0oOai3MP3tij52I4zzDw7KHZJSIt4cRE6UpAOOT5nP5wD-BEFbfLw==" data-type="subscription">
+                <div class="sib-input sib-form-block brevo-email-block">
+                  <div class="form__entry entry_block">
+                    <div class="form__label-row">
+                      <label class="sr-only entry__label" for="EMAIL" data-required="*">Enter your email to unlock the guide</label>
+                      <div class="entry__field">
+                        <input class="input" type="text" id="EMAIL" name="EMAIL" autocomplete="email" value="" placeholder="Enter your email address" data-required="true" required>
+                      </div>
+                    </div>
+                    <label class="entry__error entry__error--primary brevo-field-error"></label>
+                  </div>
+                </div>
+                <div class="brevo-submit-block">
+                  <button class="sib-form-block__button sib-form-block__button-with-loader" form="sib-form" type="submit">
+                    <svg class="icon clickable__icon progress-indicator__icon sib-hide-loader-icon" viewBox="0 0 512 512" aria-hidden="true">
+                      <path d="M460.116 373.846l-20.823-12.022c-5.541-3.199-7.54-10.159-4.663-15.874 30.137-59.886 28.343-131.652-5.386-189.946-33.641-58.394-94.896-95.833-161.827-99.676C261.028 55.961 256 50.751 256 44.352V20.309c0-6.904 5.808-12.337 12.703-11.982 83.556 4.306 160.163 50.864 202.11 123.677 42.063 72.696 44.079 162.316 6.031 236.832-3.14 6.148-10.75 8.461-16.728 5.01z"></path>
+                    </svg>
+                    Unlock the Free Guide
+                  </button>
+                </div>
+                <div class="sib-captcha sib-form-block brevo-captcha-block">
+                  <div class="form__entry entry_block">
+                    <div class="form__label-row">
+                      <div class="g-recaptcha sib-visible-recaptcha" id="sib-captcha" data-sitekey="6LdKBXstAAAAAIERpNCQ8HmCSppe2Z_S0mMtL5Zc" data-callback="handleCaptchaResponse"></div>
+                    </div>
+                    <label class="entry__error entry__error--primary brevo-field-error"></label>
+                  </div>
+                </div>
+                <input type="text" name="email_address_check" value="" class="input--hidden" tabindex="-1" autocomplete="off" aria-hidden="true">
+                <input type="hidden" name="locale" value="en">
+              </form>
+            </div>
+          </div>
         </div>
-        <p class="file-note">PDF download • 38 pages</p>
+
+        <p class="signup-note">Already subscribed? Enter the same email address to unlock your download.</p>
+        <div class="download-unlock" id="download-unlock" hidden>
+          <p>Your guide is ready.</p>
+          <a class="button button-primary" href="../downloads/redemption-lyric-scripture-guide.pdf" download>Download the Free Guide</a>
+          <p class="file-note">PDF download • 38 pages</p>
+        </div>
+        <div class="actions actions-secondary">
+          <a class="button button-secondary" href="https://open.spotify.com/album/7sSkKsUODS3fbMDyDlclwh" rel="noopener noreferrer" target="_blank">Listen to Redemption</a>
+        </div>
       </div>
     </section>
 
@@ -52,5 +106,44 @@
       <span>© 2026 Midnight Mercy Records LLC</span>
     </footer>
   </main>
+  <script>
+    function handleCaptchaResponse() {
+      var event = new Event('captchaChange');
+      document.getElementById('sib-captcha').dispatchEvent(event);
+    }
+
+    window.REQUIRED_CODE_ERROR_MESSAGE = 'Please choose a country code';
+    window.LOCALE = 'en';
+    window.EMAIL_INVALID_MESSAGE = window.SMS_INVALID_MESSAGE = 'Please enter a valid email address.';
+    window.REQUIRED_ERROR_MESSAGE = 'This field cannot be left blank.';
+    window.GENERIC_INVALID_MESSAGE = 'The information provided is invalid. Please review it and try again.';
+    window.INVALID_NUMBER = window.GENERIC_INVALID_MESSAGE;
+    window.INVALID_DATE = 'Please enter a valid date';
+    window.REQUIRED_MULTISELECT_MESSAGE = 'Please select at least one option';
+    window.translation = { common: { selectedList: '{quantity} list selected', selectedLists: '{quantity} lists selected', selectedOption: '{quantity} selected', selectedOptions: '{quantity} selected' } };
+    var AUTOHIDE = false;
+
+    (function () {
+      var success = document.getElementById('success-message');
+      var unlock = document.getElementById('download-unlock');
+      var form = document.getElementById('sib-form');
+
+      function revealDownload() {
+        if (!success || !unlock) return;
+        var isVisible = window.getComputedStyle(success).display !== 'none' || success.classList.contains('sib-form-message-panel--active');
+        if (isVisible) {
+          unlock.hidden = false;
+          if (form) form.hidden = true;
+          unlock.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }
+      }
+
+      if (success) {
+        new MutationObserver(revealDownload).observe(success, { attributes: true, childList: true, subtree: true });
+      }
+    }());
+  </script>
+  <script defer src="https://sibforms.com/forms/end-form/build/main.js"></script>
+  <script src="https://www.google.com/recaptcha/api.js?hl=en" async defer></script>
 </body>
 </html>

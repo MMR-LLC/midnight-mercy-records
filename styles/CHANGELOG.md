@@ -1,4 +1,18 @@
 
+## v2.5.2 — Redemption Guide Email Gate
+
+- Replaced the public Redemption Guide download button with the existing Brevo community signup form.
+- Unlocks the PDF download only after Brevo accepts the visitor's email submission.
+- Keeps reCAPTCHA, the Brevo list connection, error handling, and the existing Midnight Mercy visual style.
+- Removed the homepage shortcut that allowed visitors to bypass the email signup.
+- Added a clear path for existing subscribers to enter the same email and unlock the guide.
+
+## v2.4.7 — Instagram Mobile Containment
+
+- Added a final mobile containment layer for Instagram and other in-app browsers so the Redemption artwork, title, copy, and Brevo form cannot exceed the viewport.
+- Reserved the square Redemption artwork dimensions to prevent layout movement after the guide anchor is activated.
+- Advanced the stylesheet cache key so mobile browsers receive the corrected CSS instead of an older cached copy.
+
 ## v2.4.6 — Mobile Guide Funnel Fixes
 
 - Changed the homepage “Get the Free Guide” button to land directly at the guide signup area instead of the top of the featured release.
@@ -189,3 +203,18 @@
 - Linked the entire featured card to the Community signup section.
 - Added a REDEMPTION-focused 1200 × 630 social preview image.
 - Updated Open Graph and Twitter/X metadata to reflect the upcoming album.
+## v2.5.1 — Redemption Artwork Containment
+
+- Locked the homepage REDEMPTION artwork to a complete square on desktop so it cannot stretch to the height of the guide/form column.
+- Changed the artwork fit from cropping to containment and aligned the cover with the top of the release copy.
+- Advanced the shared stylesheet cache key so the corrected artwork layout loads immediately.
+
+## v2.5.0 — REDEMPTION Release Day
+
+- Replaced REDEMPTION pre-save destinations with the official Spotify album link across the homepage, Music page, Discover page, and guide page.
+- Changed the remaining August 21 coming-soon language to release-day “Out Now” messaging.
+- Made REDEMPTION the homepage’s latest album and added a focused four-song introduction.
+- Replaced the Dust To Grace Music-page embed with the complete 12-song REDEMPTION Spotify player.
+- Changed guide messaging from future delivery to immediate availability and added direct download access for existing community members.
+- Reduced the oversized desktop REDEMPTION heading and strengthened containment to prevent the release panel from clipping.
+- Updated Discover metadata and cache keys for the live release.

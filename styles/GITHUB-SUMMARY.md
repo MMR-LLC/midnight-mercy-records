@@ -2,14 +2,12 @@
 
 ## Commit title
 
-`Fix mobile guide signup landing and page overflow`
+`Require email signup before Redemption Guide download`
 
 ## Description
 
-Changes the homepage “Get the Free Guide” button so it lands directly at the Redemption guide signup area instead of stopping at the top of the featured release.
+Replaces the public Redemption Guide download button with the existing Brevo community signup form and unlocks the PDF only after a successful email submission.
 
-Reduces oversized mobile typography and spacing, prevents the featured release and Brevo form from overflowing narrow screens, and preserves the official clean Redemption HyperFollow URL.
+Keeps Brevo reCAPTCHA and list collection intact, adds guidance for existing subscribers, and removes the homepage shortcut that previously bypassed the email gate.
 
-The guide PDF is hosted on the Midnight Mercy Records domain at `/downloads/redemption-lyric-scripture-guide.pdf`, giving Brevo a stable, branded destination for the August 21 delivery campaign.
-
-Updates the homepage, Music page, and Discover page signup messaging to offer the free guide directly, while preserving the existing Brevo community form and automation.
+The guide design, Redemption Spotify link, PDF file, release-day messaging, and Your Light Remix campaign remain unchanged.
