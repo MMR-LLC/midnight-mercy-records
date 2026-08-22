@@ -2,12 +2,12 @@
 
 ## Commit title
 
-`Add branded community confirmation page`
+`Restore Redemption Guide email funnel`
 
 ## Description
 
-Adds a dedicated post-confirmation destination for new Midnight Mercy Community subscribers completing Brevo double opt-in.
+Restores the correct branded Redemption Guide page after the homepage file was accidentally placed in the `/redemption-guide/` folder.
 
-The page confirms that the subscription is complete, explains that the Redemption Guide email may take a minute, and reminds visitors to check Promotions or Spam.
+Keeps the Brevo email gate and CAPTCHA in front of the guide download, and includes the new post-confirmation page in the correct root-level location.
 
-The existing guide email gate, Brevo form, direct PDF delivery, Redemption Spotify links, and Your Light Remix campaign remain unchanged.
+The homepage, music pages, Redemption Spotify links, PDF, and Your Light Remix campaign remain otherwise unchanged.

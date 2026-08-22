@@ -1,4 +1,11 @@
 
+## v2.5.4 — Clean Guide Funnel Recovery
+
+- Restores the correct branded Redemption Guide page at `/redemption-guide/` after an incorrect homepage file was placed in that folder.
+- Preserves the Brevo email gate, reCAPTCHA, hidden PDF download, and Redemption listening link.
+- Includes the new `/community-confirmed/` post-confirmation page in the correct root-level location.
+- Packages the complete website in a clean deployment-ready folder structure.
+
 ## v2.5.3 — Community Confirmation Page
 
 - Added a branded post-confirmation page for Brevo double opt-in subscribers.
