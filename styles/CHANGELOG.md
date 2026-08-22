@@ -1,4 +1,11 @@
 
+## v2.5.3 — Community Confirmation Page
+
+- Added a branded post-confirmation page for Brevo double opt-in subscribers.
+- Clearly confirms that the visitor has joined the Midnight Mercy Community.
+- Tells subscribers to allow a minute for the Redemption Guide delivery email and to check Promotions or Spam.
+- Includes direct actions to listen to Redemption or return to the Midnight Mercy Records website.
+
 ## v2.5.2 — Redemption Guide Email Gate
 
 - Replaced the public Redemption Guide download button with the existing Brevo community signup form.

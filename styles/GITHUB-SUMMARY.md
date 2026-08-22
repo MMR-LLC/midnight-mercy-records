@@ -2,12 +2,12 @@
 
 ## Commit title
 
-`Require email signup before Redemption Guide download`
+`Add branded community confirmation page`
 
 ## Description
 
-Replaces the public Redemption Guide download button with the existing Brevo community signup form and unlocks the PDF only after a successful email submission.
+Adds a dedicated post-confirmation destination for new Midnight Mercy Community subscribers completing Brevo double opt-in.
 
-Keeps Brevo reCAPTCHA and list collection intact, adds guidance for existing subscribers, and removes the homepage shortcut that previously bypassed the email gate.
+The page confirms that the subscription is complete, explains that the Redemption Guide email may take a minute, and reminds visitors to check Promotions or Spam.
 
-The guide design, Redemption Spotify link, PDF file, release-day messaging, and Your Light Remix campaign remain unchanged.
+The existing guide email gate, Brevo form, direct PDF delivery, Redemption Spotify links, and Your Light Remix campaign remain unchanged.
