@@ -2,12 +2,12 @@
 
 ## Commit title
 
-`Fix REDEMPTION desktop artwork stretching`
+`Launch Your Light Remix on website`
 
 ## Description
 
-Locks the homepage REDEMPTION artwork to its complete square aspect ratio so it cannot stretch to the full height of the adjacent guide and signup content.
+Launches Your Light Remix across the Music and Discover pages using the official Spotify track.
 
-Uses a contained image fit, top-aligns the artwork and release copy, and advances the stylesheet cache key so browsers receive the correction immediately.
+Adds Out Now messaging, direct listening links, and an on-site single player while keeping both complete albums playable.
 
-The v2.5.0 release-day Spotify links, player, Out Now messaging, guide availability, and Your Light Remix campaign remain unchanged.
+Also includes the clean Redemption Guide email gate and post-confirmation page recovery.

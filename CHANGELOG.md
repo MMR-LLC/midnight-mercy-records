@@ -1,4 +1,41 @@
 
+## v2.6.1 — Your Light Remix Release
+
+- Changes Your Light Remix from pre-save to Out Now across the Music and Discover pages.
+- Adds the official Spotify track link and compact on-site Spotify player.
+- Credits Ashan Levi, Noah Graves, and Ava Thorn together on the Discover release card.
+- Preserves both complete album players and the Redemption Guide email funnel.
+
+## v2.6.0 — Complete Music Page Players
+
+- Keeps the full on-site Spotify player for the 12-song Redemption album.
+- Adds a second full on-site Spotify player for the 13-song Dust To Grace album.
+- Preserves direct Spotify album links as accessible fallbacks.
+- Prepares the Singles & Collaborations section for an on-site Your Light Remix player after its August 28 release.
+- Includes the clean Redemption Guide email-gate recovery and community confirmation page from v2.5.4.
+
+## v2.5.4 — Clean Guide Funnel Recovery
+
+- Restores the correct branded Redemption Guide page at `/redemption-guide/` after an incorrect homepage file was placed in that folder.
+- Preserves the Brevo email gate, reCAPTCHA, hidden PDF download, and Redemption listening link.
+- Includes the new `/community-confirmed/` post-confirmation page in the correct root-level location.
+- Packages the complete website in a clean deployment-ready folder structure.
+
+## v2.5.3 — Community Confirmation Page
+
+- Added a branded post-confirmation page for Brevo double opt-in subscribers.
+- Clearly confirms that the visitor has joined the Midnight Mercy Community.
+- Tells subscribers to allow a minute for the Redemption Guide delivery email and to check Promotions or Spam.
+- Includes direct actions to listen to Redemption or return to the Midnight Mercy Records website.
+
+## v2.5.2 — Redemption Guide Email Gate
+
+- Replaced the public Redemption Guide download button with the existing Brevo community signup form.
+- Unlocks the PDF download only after Brevo accepts the visitor's email submission.
+- Keeps reCAPTCHA, the Brevo list connection, error handling, and the existing Midnight Mercy visual style.
+- Removed the homepage shortcut that allowed visitors to bypass the email signup.
+- Added a clear path for existing subscribers to enter the same email and unlock the guide.
+
 ## v2.4.7 — Instagram Mobile Containment
 
 - Added a final mobile containment layer for Instagram and other in-app browsers so the Redemption artwork, title, copy, and Brevo form cannot exceed the viewport.
