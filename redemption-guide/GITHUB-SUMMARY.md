@@ -2,12 +2,12 @@
 
 ## Commit title
 
-`Restore Redemption Guide email funnel`
+`Add YouTube Music to Discover page`
 
 ## Description
 
-Restores the correct branded Redemption Guide page after the homepage file was accidentally placed in the `/redemption-guide/` folder.
+Adds a dedicated YouTube Music listening option to the Discover page.
 
-Keeps the Brevo email gate and CAPTCHA in front of the guide download, and includes the new post-confirmation page in the correct root-level location.
+Keeps the existing YouTube channel button separate for music videos, Shorts, and other channel content.
 
-The homepage, music pages, Redemption Spotify links, PDF, and Your Light Remix campaign remain otherwise unchanged.
+Also includes the clean Redemption Guide email gate and post-confirmation page recovery.

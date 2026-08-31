@@ -1,4 +1,25 @@
 
+## v2.6.2 — YouTube Music Discover Link
+
+- Adds a dedicated YouTube Music button to the Discover page.
+- Keeps the existing YouTube button for music videos, Shorts, and channel content.
+- Links directly to Ashan Levi's YouTube Music artist channel.
+
+## v2.6.1 — Your Light Remix Release
+
+- Changes Your Light Remix from pre-save to Out Now across the Music and Discover pages.
+- Adds the official Spotify track link and compact on-site Spotify player.
+- Credits Ashan Levi, Noah Graves, and Ava Thorn together on the Discover release card.
+- Preserves both complete album players and the Redemption Guide email funnel.
+
+## v2.6.0 — Complete Music Page Players
+
+- Keeps the full on-site Spotify player for the 12-song Redemption album.
+- Adds a second full on-site Spotify player for the 13-song Dust To Grace album.
+- Preserves direct Spotify album links as accessible fallbacks.
+- Prepares the Singles & Collaborations section for an on-site Your Light Remix player after its August 28 release.
+- Includes the clean Redemption Guide email-gate recovery and community confirmation page from v2.5.4.
+
 ## v2.5.4 — Clean Guide Funnel Recovery
 
 - Restores the correct branded Redemption Guide page at `/redemption-guide/` after an incorrect homepage file was placed in that folder.
