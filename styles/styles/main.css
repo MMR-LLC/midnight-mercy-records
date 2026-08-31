@@ -1035,6 +1035,19 @@ a:focus-visible {
 .single-release-card h3 { margin: 10px 0 6px; font-size: clamp(2rem, 4vw, 3.3rem); }
 .single-release-card p { color: var(--muted); }
 .single-release-card .text-link { display: inline-block; margin-top: 18px; }
+.single-release-card .release-player-note {
+  margin: 16px 0 0;
+  color: rgba(255,255,255,.5);
+  font-size: .78rem;
+  line-height: 1.6;
+}
+.single-release-card .single-spotify-player {
+  max-width: 100%;
+  margin-top: 20px;
+}
+.single-release-card .single-spotify-player iframe {
+  height: 152px;
+}
 .music-community-banner {
   display: flex;
   justify-content: space-between;
@@ -1412,6 +1425,10 @@ a:focus-visible {
 /* v1.0.8 — Refined Spotify album listening experience. */
 .spotify-listening-section {
   padding-top: clamp(1.5rem, 4vw, 3.25rem);
+}
+
+.spotify-listening-section--secondary {
+  padding-top: 0;
 }
 
 .spotify-listening-shell {

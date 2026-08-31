@@ -2,12 +2,12 @@
 
 ## Commit title
 
-`Add branded community confirmation page`
+`Separate YouTube and YouTube Music links`
 
 ## Description
 
-Adds a dedicated post-confirmation destination for new Midnight Mercy Community subscribers completing Brevo double opt-in.
+Keeps the top YouTube icon for videos and adds YouTube Music as the streaming destination below.
 
-The page confirms that the subscription is complete, explains that the Redemption Guide email may take a minute, and reminds visitors to check Promotions or Spam.
+Removes the duplicate YouTube card so the two remaining destinations no longer lead to the same place.
 
-The existing guide email gate, Brevo form, direct PDF delivery, Redemption Spotify links, and Your Light Remix campaign remain unchanged.
+Also includes the clean Redemption Guide email gate and post-confirmation page recovery.
