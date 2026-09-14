@@ -11,3 +11,4 @@ Launches Your Light Remix across the Music and Discover pages using the official
 Adds Out Now messaging, direct listening links, and an on-site single player while keeping both complete albums playable.
 
 Also includes the clean Redemption Guide email gate and post-confirmation page recovery.
+Add artist discovery pages and Sweets pre-save

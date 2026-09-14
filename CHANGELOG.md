@@ -247,3 +247,13 @@
 - Changed guide messaging from future delivery to immediate availability and added direct download access for existing community members.
 - Reduced the oversized desktop REDEMPTION heading and strengthened containment to prevent the release panel from clipping.
 - Updated Discover metadata and cache keys for the live release.
+# v2.7.0 — Artist discovery pages and Sweets pre-save
+
+- Added `/ashanlevi/` as Ashan Levi's dedicated discovery and streaming page.
+- Added `/edenrae/` as Eden Rae's dedicated artist page, ready for her first release.
+- Rebuilt `/discover/` as the Midnight Mercy Records artist hub.
+- Added Sweets artwork, October 2 release information, and the official HyperFollow pre-save.
+- Added Sweets to the main Music page and organized the catalog by artist.
+- Preserved separate YouTube and YouTube Music destinations.
+- Restored the correct email-gated Redemption Guide page.
+- Removed inherited nested website copies from the upload package.
