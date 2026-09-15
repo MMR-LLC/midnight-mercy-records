@@ -1,0 +1,27 @@
+:root{color-scheme:dark;--cream:#f3ede3;--gold:#cbb07a;--muted:#b9b1a7}
+*{box-sizing:border-box}
+body{margin:0;background:#080808;color:var(--cream);font-family:Inter,Arial,sans-serif}
+.eden-shell{width:min(960px,100%);margin:auto;padding-bottom:30px}
+.eden-hero{height:min(78vh,720px);position:relative;overflow:hidden}
+.hero-bg{width:100%;height:100%;object-fit:cover;object-position:center 24%}
+.hero-shade{position:absolute;inset:0;background:linear-gradient(transparent 25%,rgba(0,0,0,.18) 48%,#080808 100%)}
+.hero-copy{position:absolute;left:clamp(24px,7vw,70px);right:24px;bottom:54px}
+.hero-copy p,.eyebrow{color:var(--gold);font-weight:800;letter-spacing:.2em;text-transform:uppercase;font-size:.72rem}
+.hero-copy h1{font-family:Georgia,serif;font-size:clamp(4rem,12vw,7rem);line-height:.85;margin:10px 0 18px}
+.hero-copy span{font-size:clamp(1rem,2.5vw,1.35rem);color:#e0d9cf}
+.intro,.music,.disclaimer{margin:0 24px;padding:46px clamp(0px,4vw,34px);border-bottom:1px solid #302b24}
+.intro h2,.music h2{font-family:Georgia,serif;font-size:clamp(2rem,5vw,3.2rem);margin:10px 0}
+.intro p:last-child,.music p,.disclaimer p{color:var(--muted);line-height:1.75;max-width:720px}
+.music{display:grid;grid-template-columns:1.4fr .8fr;gap:30px;align-items:center}
+.empty-release{aspect-ratio:1;background:radial-gradient(circle at 50% 38%,#504a41,#191714 45%,#080808 80%);border:1px solid #5d5039;border-radius:18px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:20px}
+.empty-release span{letter-spacing:.3em;font-size:.7rem;color:var(--gold)}
+.empty-release strong{font-family:Georgia,serif;font-size:1.7rem;margin-top:12px}
+.social-links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:28px 24px}
+.social-links a,.links a{color:#eee;text-decoration:none;background:#121212;border:1px solid #333;border-radius:14px;padding:18px;transition:border-color .2s ease,transform .2s ease}
+.social-links a{display:flex;flex-direction:column;gap:7px}
+.social-links span{color:var(--muted);font-size:.9rem}
+.social-links a:hover,.links a:hover{border-color:var(--gold);transform:translateY(-1px)}
+.links{display:grid;gap:10px;margin:28px 24px}
+.disclaimer strong{color:var(--gold)}
+footer{text-align:center;color:#777;font-size:.8rem;padding:28px}
+@media(max-width:680px){.eden-hero{height:620px}.music,.social-links{grid-template-columns:1fr}.empty-release{max-width:330px;width:100%;margin:auto}}
