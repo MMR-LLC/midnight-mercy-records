@@ -257,3 +257,9 @@
 - Preserved separate YouTube and YouTube Music destinations.
 - Restored the correct email-gated Redemption Guide page.
 - Removed inherited nested website copies from the upload package.
+## v2.7.1 — Eden Rue artist rename
+
+- Renamed Eden Rae to Eden Rue throughout the public website.
+- Added Eden Rue's official YouTube, Instagram, TikTok, and Facebook links.
+- Moved the artist page to `/edenrue/` and preserved `/edenrae/` as a redirect.
+- Broadened Eden Rue's artist description beyond a single genre.

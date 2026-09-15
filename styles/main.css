@@ -535,6 +535,8 @@ h3 { margin: 0; font-size: 1.55rem; }
   background: radial-gradient(circle at 20% 20%, rgba(201,164,106,.08), transparent 35%), var(--surface);
 }
 .page-hero-copy h1 { font-size: clamp(4rem, 8vw, 7.4rem); }
+.eden-artist-hero .page-hero-copy h2 { font-size: clamp(4rem, 8vw, 7.4rem); }
+.eden-artist-hero .page-hero-image img { object-position: center 28%; }
 .lead { color: var(--text); font-size: clamp(1.15rem, 2vw, 1.6rem); line-height: 1.55; }
 .page-hero-copy > p:not(.eyebrow):not(.lead) { color: var(--muted); line-height: 1.8; }
 .page-actions { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 28px; }
