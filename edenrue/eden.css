@@ -24,4 +24,4 @@ body{margin:0;background:#080808;color:var(--cream);font-family:Inter,Arial,sans
 .links{display:grid;gap:10px;margin:28px 24px}
 .disclaimer strong{color:var(--gold)}
 footer{text-align:center;color:#777;font-size:.8rem;padding:28px}
-@media(max-width:680px){.eden-hero{height:620px}.music,.social-links{grid-template-columns:1fr}.empty-release{max-width:330px;width:100%;margin:auto}}
+@media(max-width:680px){.eden-hero{height:620px}.hero-bg{object-position:72% 24%}.music,.social-links{grid-template-columns:1fr}.empty-release{max-width:330px;width:100%;margin:auto}}
