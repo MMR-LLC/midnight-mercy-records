@@ -9,3 +9,4 @@
 Renames Eden Rae to Eden Rue throughout the public website and moves her official artist page to `/edenrue/`.
 
 Adds Eden Rue's official Instagram, TikTok, Facebook, and YouTube links, broadens her artist description, and preserves `/edenrae/` as a redirect so older links still work.
+Add Louder Still pre-save across artist pages

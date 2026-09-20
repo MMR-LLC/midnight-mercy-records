@@ -263,3 +263,9 @@
 - Added Eden Rue's official YouTube, Instagram, TikTok, and Facebook links.
 - Moved the artist page to `/edenrue/` and preserved `/edenrae/` as a redirect.
 - Broadened Eden Rue's artist description beyond a single genre.
+# v2.8.0 — Louder Still Pre-save
+
+- Added Eden Rue’s first single, “Louder Still (feat. Ashan Levi),” to the Eden Rue page.
+- Added the collaboration and pre-save link to Ashan Levi’s page.
+- Added both upcoming releases to the main Discover hub.
+- Preserved the Instagram mobile hero framing fix.
