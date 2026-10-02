@@ -8,10 +8,10 @@ window.DISCOVER_CONFIG = {
     sweets: {
       title: "Sweets",
       subtitle: "A deeply personal song about fatherhood",
-      releaseDate: "Release Date • October 2, 2026",
+      releaseDate: "Released • October 2, 2026",
       artwork: "../assets/albums/sweets-web.jpg",
       artworkAlt: "Sweets cover artwork by Ashan Levi",
-      url: "https://distrokid.com/hyperfollow/ashanlevi/sweets",
+      url: "https://open.spotify.com/album/5Afuk5yNPhHeLEZLEu9otb",
       openInNewTab: true
     },
     redemption: {

@@ -1050,6 +1050,13 @@ a:focus-visible {
 .single-release-card .single-spotify-player iframe {
   height: 152px;
 }
+.featured-release-copy .single-spotify-player {
+  max-width: 100%;
+  margin-top: 20px;
+}
+.featured-release-copy .single-spotify-player iframe {
+  height: 152px;
+}
 .music-community-banner {
   display: flex;
   justify-content: space-between;
