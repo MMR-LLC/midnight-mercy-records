@@ -1,4 +1,12 @@
 
+## v2.9.2 — Louder Still Pre-save & Artwork
+
+- Updates every Louder Still call-to-action to the official `-2` DistroKid HyperFollow URL.
+- Adds the final square Louder Still artwork to release cards on the Discover, Eden Rue, and Ashan Levi pages.
+- Uses the Louder Still artwork for `/edenrue/` social-link previews while preserving Eden Rue's hero and profile imagery.
+- Keeps the Sweets artwork on `/ashanlevi/` and the Midnight Mercy Records logo on the root-domain preview.
+- Links the Music page's Louder Still button directly to the pre-save page.
+
 ## v2.6.1 — Your Light Remix Release
 
 - Changes Your Light Remix from pre-save to Out Now across the Music and Discover pages.
