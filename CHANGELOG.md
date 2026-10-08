@@ -1,4 +1,10 @@
 
+## v2.10.1 — Dedicated Exclusive Signup
+
+- Connects the exclusive landing page to the dedicated Brevo form for “The Part Where You Leave.”
+- Adds the MMR Community Exclusive release card to the Discover page.
+- Clarifies access instructions for existing Midnight Mercy Community subscribers.
+
 ## v2.10.0 — MMR Community Exclusive
 
 - Adds a public signup page for Ashan Levi’s unreleased song “The Part Where You Leave.”
