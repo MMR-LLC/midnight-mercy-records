@@ -1,4 +1,13 @@
 
+## v2.10.0 — MMR Community Exclusive
+
+- Adds a public signup page for Ashan Levi’s unreleased song “The Part Where You Leave.”
+- Uses the existing Brevo community form and confirmed-email access flow.
+- Adds a private, no-index listening page with the unlisted YouTube video.
+- Adds a three-option release vote collected through YouTube comments.
+- Adds the exclusive to Ashan Levi’s artist page and updates the community confirmation page.
+- Includes the approved 3000×3000 black-and-white cover artwork and social preview metadata.
+
 ## v2.9.2 — Louder Still Pre-save & Artwork
 
 - Updates every Louder Still call-to-action to the official `-2` DistroKid HyperFollow URL.
