@@ -2,10 +2,8 @@
 
 ## Commit title
 
-`Separate Sweets, MMR Exclusive, and Redemption Guide`
+`Add direct MMR homepage link to Ashan Levi page`
 
 ## Description
 
-Keeps the Sweets homepage feature focused on streaming, adds a dedicated section for The Part Where You Leave, and moves the existing Redemption Guide signup beneath the Redemption album where it belongs.
-
-The Brevo action, reCAPTCHA, subscriber list connection, and confirmation flow remain unchanged.
+Updates the Midnight Mercy Records card on `/ashanlevi/` so visitors can open the main MMR website directly without going through `/discover/` first.

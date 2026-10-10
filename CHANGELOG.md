@@ -1,4 +1,9 @@
 
+## v2.10.3 — Direct MMR Homepage Link
+
+- Changes the Midnight Mercy Records card on `/ashanlevi/` to link directly to the main MMR homepage.
+- Replaces the intermediate “Discover all MMR artists” description with “Visit the official MMR website.”
+
 ## v2.10.2 — Clear Homepage Release Sections
 
 - Keeps the Sweets featured-release section focused entirely on listening.
