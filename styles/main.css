@@ -984,6 +984,63 @@ a:focus-visible {
 .kit-form-wrap .formkit-form { margin: 0 !important; max-width: none !important; }
 .form-note { margin-top: 14px; color: rgba(255,255,255,.52); font-size: .84rem; line-height: 1.6; }
 .guide-download-link { display: inline-block; margin-top: 16px; }
+
+/* v2.10.2 — separate Sweets, MMR Exclusive, and Redemption guide */
+.exclusive-feature-section {
+  max-width: 1240px;
+  padding-top: clamp(28px, 5vw, 70px);
+  padding-bottom: clamp(80px, 9vw, 130px);
+}
+.exclusive-feature-shell {
+  display: grid;
+  grid-template-columns: minmax(260px, 420px) minmax(0, 1fr);
+  gap: clamp(34px, 7vw, 88px);
+  align-items: center;
+  padding: clamp(24px, 4vw, 50px);
+  border: 1px solid var(--line);
+  background: linear-gradient(145deg, rgba(255,255,255,.028), rgba(201,164,106,.045));
+  box-shadow: 0 34px 90px rgba(0,0,0,.34);
+}
+.exclusive-feature-art img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border: 1px solid rgba(255,255,255,.12);
+  box-shadow: 0 26px 70px rgba(0,0,0,.55);
+}
+.exclusive-feature-copy h2 {
+  max-width: 760px;
+  margin: 10px 0 18px;
+  font-size: clamp(2.55rem, 5vw, 5rem);
+  line-height: .98;
+}
+.exclusive-feature-copy p:not(.eyebrow) {
+  max-width: 690px;
+  color: var(--muted);
+  font-size: 1.02rem;
+  line-height: 1.75;
+}
+.exclusive-feature-copy .button { margin-top: 15px; }
+.redemption-guide-card {
+  position: relative;
+  margin-top: clamp(50px, 7vw, 92px);
+  padding: clamp(28px, 4vw, 52px);
+  border: 1px solid var(--line);
+  background: linear-gradient(145deg, rgba(201,164,106,.10), rgba(16,16,16,.96) 58%);
+}
+.redemption-guide-card .guide-signup-anchor { top: -120px; }
+
+@media (max-width: 800px) {
+  .exclusive-feature-shell { grid-template-columns: 1fr; }
+  .exclusive-feature-art { width: min(520px, 100%); margin-inline: auto; }
+}
+@media (max-width: 560px) {
+  .exclusive-feature-section { padding-inline: 16px; }
+  .exclusive-feature-shell { padding: 20px; gap: 28px; }
+  .exclusive-feature-copy .button { width: 100%; }
+  .redemption-guide-card { padding: 24px 18px; }
+}
 @media (max-width: 940px) {
   .featured-release-shell { grid-template-columns: 1fr; }
   .featured-release-art { width: min(640px, 100%); margin-inline: auto; }

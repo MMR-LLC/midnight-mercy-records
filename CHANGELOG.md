@@ -1,4 +1,11 @@
 
+## v2.10.2 — Clear Homepage Release Sections
+
+- Keeps the Sweets featured-release section focused entirely on listening.
+- Adds a separate homepage feature for the MMR-exclusive track “The Part Where You Leave.”
+- Moves the Redemption Lyric & Scripture Guide and its existing Brevo form beneath the Redemption album section.
+- Removes outdated release-day guide language while preserving the form action, reCAPTCHA, and confirmation flow.
+
 ## v2.10.1 — Dedicated Exclusive Signup
 
 - Connects the exclusive landing page to the dedicated Brevo form for “The Part Where You Leave.”

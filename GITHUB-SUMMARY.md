@@ -2,11 +2,10 @@
 
 ## Commit title
 
-`Rename Eden Rae to Eden Rue and update artist links`
+`Separate Sweets, MMR Exclusive, and Redemption Guide`
 
 ## Description
 
-Renames Eden Rae to Eden Rue throughout the public website and moves her official artist page to `/edenrue/`.
+Keeps the Sweets homepage feature focused on streaming, adds a dedicated section for The Part Where You Leave, and moves the existing Redemption Guide signup beneath the Redemption album where it belongs.
 
-Adds Eden Rue's official Instagram, TikTok, Facebook, and YouTube links, broadens her artist description, and preserves `/edenrae/` as a redirect so older links still work.
-Add Louder Still pre-save across artist pages
+The Brevo action, reCAPTCHA, subscriber list connection, and confirmation flow remain unchanged.
