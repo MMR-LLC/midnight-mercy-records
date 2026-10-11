@@ -1,4 +1,9 @@
 
+## v2.10.4 — Updated Featured Artist Portrait
+
+- Replaces the homepage Featured Artist image with the new rooftop sunset portrait of Ashan Levi.
+- Preserves the existing responsive 4:5 presentation and updates the image description for accessibility.
+
 ## v2.10.3 — Direct MMR Homepage Link
 
 - Changes the Midnight Mercy Records card on `/ashanlevi/` to link directly to the main MMR homepage.

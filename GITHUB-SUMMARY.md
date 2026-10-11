@@ -2,8 +2,8 @@
 
 ## Commit title
 
-`Add direct MMR homepage link to Ashan Levi page`
+`Update Ashan Levi featured artist portrait`
 
 ## Description
 
-Updates the Midnight Mercy Records card on `/ashanlevi/` so visitors can open the main MMR website directly without going through `/discover/` first.
+Replaces the homepage Featured Artist image with the new rooftop sunset portrait of Ashan Levi while preserving the existing responsive layout.
