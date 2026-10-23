@@ -1,4 +1,10 @@
 
+## v2.10.7 — Current Release Ordering
+
+- Moves Louder Still to the top of the release list on `/discover/`.
+- Reorders `/ashanlevi/` to Louder Still, Sweets, Redemption, and The Part Where You Leave.
+- Preserves all existing artwork, destinations, descriptions, and release-status wording.
+
 ## v2.10.6 — Louder Still Out Now
 
 - Changes every Louder Still call-to-action from pre-save to listen now across the Music, Discover, Ashan Levi, and Eden Rue pages.

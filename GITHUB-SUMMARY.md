@@ -2,8 +2,8 @@
 
 ## Commit title
 
-`Update Louder Still links for release day`
+`Move Louder Still to current-release position`
 
 ## Description
 
-Changes Louder Still from pre-save to out now across the Music, Discover, Ashan Levi, and Eden Rue pages while keeping the official HyperFollow destination for streaming choices.
+Moves Louder Still to the top of the Discover and Ashan Levi release lists while preserving the existing links, artwork, and release-day wording.
