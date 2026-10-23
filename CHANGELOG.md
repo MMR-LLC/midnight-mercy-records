@@ -1,4 +1,15 @@
 
+## v2.10.6 — Louder Still Out Now
+
+- Changes every Louder Still call-to-action from pre-save to listen now across the Music, Discover, Ashan Levi, and Eden Rue pages.
+- Updates Eden Rue and Discover social-preview descriptions to reflect the live release.
+- Keeps the official DistroKid HyperFollow URL as the release destination for streaming-service choices.
+
+## v2.10.5 — Full Recording Studio Image
+
+- Replaces the Behind the Music image with a wide environmental portrait of Ashan Levi writing inside a complete professional recording studio.
+- Preserves the existing responsive section while improving the available detail for desktop and mobile crops.
+
 ## v2.10.4 — Updated Featured Artist Portrait
 
 - Replaces the homepage Featured Artist image with the new rooftop sunset portrait of Ashan Levi.
